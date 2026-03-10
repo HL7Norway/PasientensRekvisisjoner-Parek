@@ -126,14 +126,14 @@ description: "Detaljert beskrivelse av implementasjonsguiden din"
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
-copyrightYear: 2025+
+copyrightYear: 2026+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 publisher:
   name: Din Organisasjon
   url: https://www.din-organisasjon.no
 dependencies:
-  hl7.fhir.no.basis: 2.2.0
+  hl7.fhir.no.basis: 2.2.2
 menu:
   Hjem: index.html
   Artefakter: artifacts.html
