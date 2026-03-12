@@ -15,13 +15,13 @@ on:
         type: boolean
   pull_request:
     paths:
-      - 'mal/input/fsh/**'
-      - 'mal/sushi-config.yaml'
+      - 'ParekIG/input/fsh/**'
+      - 'ParekIG/sushi-config.yaml'
   push:
     branches: [main]
     paths:
-      - 'mal/input/fsh/**'
-      - 'mal/sushi-config.yaml'
+      - 'ParekIG/input/fsh/**'
+      - 'ParekIG/sushi-config.yaml'
 
 # CONFIGURATION: The "short name" of the IG and the folder must be the same
 env:
@@ -57,17 +57,17 @@ jobs:
     - name: Install fsh-sushi
       run: npm install -g fsh-sushi
 
-    - name: Install hl7.fhir.no.basis-2.2.2-snapshots in local cache
-      run: |
-        echo "NPM install fhir r5 core 5.0.0 from package registry"
-        npm --registry https://packages.simplifier.net install hl7.fhir.r5.core@5.0.0
-        echo "NPM install fhir no-basis220 from https://github.com/HL7Norway/resources/"
-        curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
-        npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
-        echo "Create .fhir packages cache directory for no-basis"
-        mkdir -p $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.2/package
-        echo "Copy local no-basis snapshot to .fhir package cache directory"
-        cp -r ./node_modules/hl7.fhir.no.basis/* $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.2/package
+    # - name: Install hl7.fhir.no.basis-2.2.2-snapshots in local cache
+    #   run: |
+    #     echo "NPM install fhir r5 core 5.0.0 from package registry"
+    #     npm --registry https://packages.simplifier.net install hl7.fhir.r5.core@5.0.0
+    #     echo "NPM install fhir no-basis220 from https://github.com/HL7Norway/resources/"
+    #     curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
+    #     npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
+    #     echo "Create .fhir packages cache directory for no-basis"
+    #     mkdir -p $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.2/package
+    #     echo "Copy local no-basis snapshot to .fhir package cache directory"
+    #     cp -r ./node_modules/hl7.fhir.no.basis/* $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.2/package
 
 
     - name: Install fsh-validator
