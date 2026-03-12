@@ -14,7 +14,7 @@ Workflowen kan utløses på flere måter:
 
 ## Miljøvariabler
 
-- `IG_SHORTNAME`: mal
+- `IG_SHORTNAME`: ParekIG
 
 **Viktig:** Husk å endre denne til ditt navn på katalogen som IG'en ligger i når du bruker malen.
 
