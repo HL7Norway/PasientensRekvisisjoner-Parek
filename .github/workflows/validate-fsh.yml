@@ -59,8 +59,8 @@ jobs:
 
     - name: Install hl7.fhir.no.basis-2.2.2-snapshots in local cache
       run: |
-        echo "NPM install fhir r4 core 4.0.1 from package registry"
-        npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
+        echo "NPM install fhir r5 core 5.0.0 from package registry"
+        npm --registry https://packages.simplifier.net install hl7.fhir.r5.core@5.0.0
         echo "NPM install fhir no-basis220 from https://github.com/HL7Norway/resources/"
         curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
         npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
