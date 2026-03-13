@@ -4,12 +4,12 @@ Usage: #example
 Title: "A Request"
 Description: "Example of ParekServiceRequest"
 * identifier
-  * system = "some.thing.unique"
+  * system = "http://some.thing.unique"
   * value = "45678"
 * subject
   * identifier
-    * system = "FNR"
-    * value = "12345"
+    * system = "urn:oid:2.16.578.1.12.4.1.4.1"
+    * value = "12345678900"
 * status = #active
 * intent = #planned
 * requester = Reference(ARequester)

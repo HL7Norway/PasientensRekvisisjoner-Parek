@@ -9,8 +9,9 @@ Description: "Example of ParekSpecimen"
 * type = #Blod
 * subject
   * identifier
-    * system = "FNR"
-    * value = "12345"
+    * system = "urn:oid:2.16.578.1.12.4.1.4.1"
+    * value = "12345678900"
+
 * collection
   * collector = Reference(ACollector)
   * collectedDateTime = "2026-03-13"
