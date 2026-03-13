@@ -3,6 +3,11 @@ InstanceOf: ParekServiceRequest
 Usage: #example
 Title: "A Request"
 Description: "Example of ParekServiceRequest"
+* text.status = #generated
+* text.div = """<div xmlns="http://www.w3.org">
+  <p>A sample ParekServiceRequest, also referenced from other samples.</p>
+  </div>"""
+
 * identifier
   * system = "http://some.thing.unique"
   * value = "45678"

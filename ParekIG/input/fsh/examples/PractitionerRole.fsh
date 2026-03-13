@@ -3,13 +3,21 @@ InstanceOf: ParekPractitionerRole
 Usage: #example
 Title: "Parek Practitioner Role"
 Description: "Example of base profile, not intended to be used"
-
+* text.status = #generated
+* text.div = """<div xmlns="http://www.w3.org">
+  <p>A dummy sample ParekPractitionerRole, only used as a base profile.</p>
+  </div>"""
 
 Instance: ARequester
 InstanceOf: ParekRequester
 Usage: #example
 Title: "Parek Requester"
 Description: "Example of requester with both practitioner and organization"
+* text.status = #generated
+* text.div = """<div xmlns="http://www.w3.org">
+  <p>A sample ParekRequester, also referenced from other samples.</p>
+  </div>"""
+  
 * practitioner
   * display = "Somebody"
   * identifier
@@ -26,6 +34,11 @@ InstanceOf: ParekCollector
 Usage: #example
 Title: "Parek Collector"
 Description: "Example of collector with only organization"
+* text.status = #generated
+* text.div = """<div xmlns="http://www.w3.org">
+  <p>A sample ParekCollector, also referenced from other samples.</p>
+  </div>"""
+
 * organization
   * display = "Someplace"
   * identifier
