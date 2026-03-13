@@ -4,7 +4,7 @@ Usage: #example
 Title: "A Specimen"
 Description: "Example of ParekSpecimen"
 * identifier
-  * system = "some.specimen.system"
+  * system = "http://some.thing.unique"
   * value = "some.specimen.id"
 * type = #Blod
 * subject

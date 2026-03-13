@@ -11,7 +11,7 @@ Description: "Example of ParekServiceRequest"
     * system = "urn:oid:2.16.578.1.12.4.1.4.1"
     * value = "12345678900"
 * status = #active
-* intent = #planned
+* intent = #plan
 * requester = Reference(ARequester)
 * contained[+] = ARequester
 * orderDetail

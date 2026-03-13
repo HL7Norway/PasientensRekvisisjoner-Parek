@@ -4,7 +4,7 @@ Usage: #example
 Title: "A Device"
 Description: "Example of a device"
 * identifier
-  * system = "some.device.system"
+  * system = "http://some.thing.unique"
   * value = "someValue"
 * name
   * value = "Et glass"
