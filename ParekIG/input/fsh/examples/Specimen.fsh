@@ -1,5 +1,5 @@
 Instance: ASpecimen
-InstanceOf: ParekSpecimen
+InstanceOf: parek-specimen
 Usage: #example
 Title: "A Specimen"
 Description: "Example of ParekSpecimen"

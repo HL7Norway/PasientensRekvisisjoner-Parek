@@ -1,5 +1,5 @@
 Instance: EmptyRole
-InstanceOf: ParekPractitionerRole
+InstanceOf: parek-practitioner-role
 Usage: #example
 Title: "Parek Practitioner Role"
 Description: "Example of base profile, not intended to be used"
@@ -9,7 +9,7 @@ Description: "Example of base profile, not intended to be used"
   </div>"""
 
 Instance: ARequester
-InstanceOf: ParekRequester
+InstanceOf: parek-requester-pr
 Usage: #example
 Title: "Parek Requester"
 Description: "Example of requester with both practitioner and organization"
@@ -30,7 +30,7 @@ Description: "Example of requester with both practitioner and organization"
     * value = "987654"
 
 Instance: ACollector
-InstanceOf: ParekCollector
+InstanceOf: parek-collector-pr
 Usage: #example
 Title: "Parek Collector"
 Description: "Example of collector with only organization"

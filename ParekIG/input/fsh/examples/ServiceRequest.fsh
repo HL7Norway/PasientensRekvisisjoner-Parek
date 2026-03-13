@@ -1,5 +1,5 @@
 Instance: ARequest
-InstanceOf: ParekServiceRequest
+InstanceOf: parek-service-request
 Usage: #example
 Title: "A Request"
 Description: "Example of ParekServiceRequest"

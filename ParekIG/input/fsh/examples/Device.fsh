@@ -1,5 +1,5 @@
 Instance: ADevice
-InstanceOf: ParekDevice
+InstanceOf: parek-device
 Usage: #example
 Title: "A Device"
 Description: "Example of a device"
