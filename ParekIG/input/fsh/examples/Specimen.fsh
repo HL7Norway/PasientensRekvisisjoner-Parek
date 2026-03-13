@@ -4,7 +4,7 @@ Usage: #example
 Title: "A Specimen"
 Description: "Example of ParekSpecimen"
 * text.status = #generated
-* text.div = """<div xmlns="http://www.w3.org">
+* text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
   <p>A sample ParekSpecimen, references other samples.</p>
   </div>"""
   

@@ -4,7 +4,7 @@ Usage: #example
 Title: "Parek Practitioner Role"
 Description: "Example of base profile, not intended to be used"
 * text.status = #generated
-* text.div = """<div xmlns="http://www.w3.org">
+* text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
   <p>A dummy sample ParekPractitionerRole, only used as a base profile.</p>
   </div>"""
 
@@ -14,7 +14,7 @@ Usage: #example
 Title: "Parek Requester"
 Description: "Example of requester with both practitioner and organization"
 * text.status = #generated
-* text.div = """<div xmlns="http://www.w3.org">
+* text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
   <p>A sample ParekRequester, also referenced from other samples.</p>
   </div>"""
   
@@ -35,7 +35,7 @@ Usage: #example
 Title: "Parek Collector"
 Description: "Example of collector with only organization"
 * text.status = #generated
-* text.div = """<div xmlns="http://www.w3.org">
+* text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
   <p>A sample ParekCollector, also referenced from other samples.</p>
   </div>"""
 
