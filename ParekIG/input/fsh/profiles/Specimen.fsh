@@ -25,8 +25,8 @@ Description: "Specimen as used in Parek."
 * request 1..1
 
 
-Instance: AnotherSpecimen
-InstanceOf: ParekSpecimen
+Instance: ASpecimen
+InstanceOf: parek-specimen
 Usage: #example
 Title: "A Specimen"
 Description: "Example of ParekSpecimen"

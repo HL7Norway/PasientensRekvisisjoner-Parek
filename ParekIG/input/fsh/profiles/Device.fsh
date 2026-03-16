@@ -14,7 +14,7 @@ Description: "Device as used in Parek."
   * value[x] only string
 
 
-Instance: AnotherDevice
+Instance: ADevice
 InstanceOf: parek-device
 Usage: #example
 Title: "A Device"
