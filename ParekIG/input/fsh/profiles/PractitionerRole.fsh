@@ -3,6 +3,7 @@ Parent: PractitionerRole
 Id: parek-practitioner-role
 Description: "PractitionerRole as used in Parek. Used to combine actors of type Practitioner and Organization. Practitioner and Organization are referenced by their Identifier.
 This is an 'abstract' base profile for ParekRequester and ParekCollector."
+* ^abstract = true
 * practitioner ^definition = "Reference to Practitioner. May come from a direct mapping from or from a fallback in original message."
 * practitioner 0..1
 * practitioner
@@ -33,16 +34,6 @@ Parent: ParekPractitionerRole
 Id: parek-collector-pr 
 * organization 1..1
 
-
-Instance: BaseRole
-InstanceOf: parek-practitioner-role
-Usage: #example
-Title: "Parek Practitioner Role"
-Description: "Example of base profile, not intended to be used"
-* text.status = #generated
-* text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-  <p>A dummy sample ParekPractitionerRole, only used as a base profile.</p>
-  </div>"""
 
 Instance: ARequester
 InstanceOf: parek-requester-pr
