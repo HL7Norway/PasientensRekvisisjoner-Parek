@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="person-id-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet person-id-type-vs</b></p><a name="person-id-type-vs"> </a><a name="hcperson-id-type-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-public-id-type-cs.html"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li><li>Include all codes defined in <a href="CodeSystem-person-id-type-cs.html"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="PersonIdType_VS"/>
+  <title value="Person Id Type VS"/>
+  <status value="draft"/>
+  <date value="2026-03-17T13:48:48+00:00"/>
+  <publisher value="Norsk helsenett - NHN"/>
+  <contact>
+    <name value="Norsk helsenett - NHN"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.nhn.no"/>
+    </telecom>
+  </contact>
+  <description value="Id types used to identify persons involved, other than the patient."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"/>
+    </include>
+    <include>
+      <system value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

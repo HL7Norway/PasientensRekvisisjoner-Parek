@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="ASpecimen"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>A sample ParekSpecimen, references other samples.</p></div>
+  </text>
+  <contained>
+    <PractitionerRole>
+      <id value="ACollector"/>
+      <meta>
+        <profile value="http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"/>
+      </meta>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>A sample ParekCollector, also referenced from other samples.</p></div>
+      </text>
+      <organization>
+        <identifier>
+          <system value="urn:oid:2.16.578.1.12.4.1.4.101"/>
+          <value value="876543"/>
+        </identifier>
+        <display value="Someplace"/>
+      </organization>
+    </PractitionerRole>
+  </contained>
+  <identifier>
+    <system value="http://some.thing.unique"/>
+    <value value="some.specimen.id"/>
+  </identifier>
+  <type>
+    <coding>
+      <system value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351"/>
+      <code value="Blod"/>
+    </coding>
+  </type>
+  <subject>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="12345678900"/>
+    </identifier>
+  </subject>
+  <request>
+    <reference value="ServiceRequest/ARequest"/>
+  </request>
+  <collection>
+    <collector>
+      <reference value="#ACollector"/>
+    </collector>
+    <collectedDateTime value="2026-03-13"/>
+  </collection>
+  <container>
+    <device>
+      <reference value="Device/ADevice"/>
+    </device>
+  </container>
+</Specimen>

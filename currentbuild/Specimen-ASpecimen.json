@@ -1,0 +1,59 @@
+{
+  "resourceType" : "Specimen",
+  "id" : "ASpecimen",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekSpecimen, references other samples.</p></div>"
+  },
+  "contained" : [{
+    "resourceType" : "PractitionerRole",
+    "id" : "ACollector",
+    "meta" : {
+      "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekCollector, also referenced from other samples.</p></div>"
+    },
+    "organization" : {
+      "identifier" : {
+        "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
+        "value" : "876543"
+      },
+      "display" : "Someplace"
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://some.thing.unique",
+    "value" : "some.specimen.id"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351",
+      "code" : "Blod"
+    }]
+  },
+  "subject" : {
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "12345678900"
+    }
+  },
+  "request" : [{
+    "reference" : "ServiceRequest/ARequest"
+  }],
+  "collection" : {
+    "collector" : {
+      "reference" : "#ACollector"
+    },
+    "collectedDateTime" : "2026-03-13"
+  },
+  "container" : [{
+    "device" : {
+      "reference" : "Device/ADevice"
+    }
+  }]
+}

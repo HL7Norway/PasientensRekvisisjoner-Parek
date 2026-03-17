@@ -1,0 +1,25 @@
+{
+  "resourceType" : "Device",
+  "id" : "ADevice",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekDevice, also referenced from other samples.</p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://some.thing.unique",
+    "value" : "someValue"
+  }],
+  "name" : [{
+    "value" : "Et glass",
+    "type" : "user-friendly-name"
+  }],
+  "property" : [{
+    "type" : {
+      "text" : "Rating"
+    },
+    "valueString" : "Rød kork"
+  }]
+}

@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/ig/ParekIG/ServiceRequest/ARequest> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ARequest"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekServiceRequest, also referenced from other samples.</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:contained ( [
+     a fhir:PractitionerRole ;
+     fhir:id [ fhir:v "ARequester" ] ;
+     fhir:meta [
+       fhir:profile ( [
+         fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr>
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekRequester, also referenced from other samples.</p></div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:practitioner [
+       fhir:identifier [
+         fhir:system [
+           fhir:v "urn:oid:2.16.578.1.12.4.1.4.4"^^xsd:anyURI ;
+           fhir:l <urn:oid:2.16.578.1.12.4.1.4.4>
+         ] ;
+         fhir:value [ fhir:v "987" ]
+       ] ;
+       fhir:display [ fhir:v "Somebody" ]
+     ] ;
+     fhir:organization [
+       fhir:identifier [
+         fhir:system [
+           fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ;
+           fhir:l <urn:oid:2.16.578.1.12.4.1.4.101>
+         ] ;
+         fhir:value [ fhir:v "987654" ]
+       ] ;
+       fhir:display [ fhir:v "Someplace" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://some.thing.unique"^^xsd:anyURI ;
+       fhir:l <http://some.thing.unique>
+     ] ;
+     fhir:value [ fhir:v "45678" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "plan"] ; # 
+  fhir:code [
+     fhir:concept [
+       fhir:text [ fhir:v "Snomed something" ]
+     ]
+  ] ; # 
+  fhir:orderDetail ( [
+     fhir:parameter ( [
+       fhir:code [
+         fhir:text [ fhir:v "Analyse" ]
+       ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:text [ fhir:v "Blodsukker" ]
+       ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:identifier [
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+       ] ;
+       fhir:value [ fhir:v "12345678900" ]
+     ]
+  ] ; # 
+  fhir:occurrence [
+     a fhir:Period ;
+     fhir:end [ fhir:v "2026-11-03"^^xsd:date ]
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2026-03-13"^^xsd:date] ; # 
+  fhir:requester [
+     fhir:l <#ARequester> ;
+     fhir:reference [ fhir:v "#ARequester" ]
+  ] ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "### Mardown header" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

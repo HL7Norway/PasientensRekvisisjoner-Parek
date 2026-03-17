@@ -1,0 +1,303 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "OrganizationIdType_CS",
+    "title" : "Organization Id Type CS",
+    "description" : "Id types used to identify organizations.",
+    "uses" : {
+    },
+    "ValueSet-organization-it-type-vs.html" : "Organization It Type VS"
+  },
+  {
+    "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PersonIdType_CS",
+    "title" : "Person Id Type CS",
+    "description" : "Id types used to identify persons involved, other than the patient.",
+    "uses" : {
+    },
+    "ValueSet-person-id-type-vs.html" : "Person Id Type VS"
+  },
+  {
+    "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PublicIdType_CS",
+    "title" : "Public Id Type CS",
+    "description" : "Id types used to identify patients",
+    "uses" : {
+    },
+    "ValueSet-public-it-type-vs.html" : "PublicIdType_VS",
+    "ValueSet-person-id-type-vs.html" : "Person Id Type VS"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-availability-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceAvailabilityStatus",
+    "title" : "FHIR Device Availability Status",
+    "description" : "The record status of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-availability-status.html" : "FHIR Device Availability Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-category",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceCategory",
+    "title" : "FHIR Device Category",
+    "description" : "The category of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2105"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-category.html" : "FHIR Device Category"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-nametype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DeviceNameType",
+    "title" : "Device Name Type",
+    "description" : "The type of name the device is referred by.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1084"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-nametype.html" : "Device Name Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-operation-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceOperationMode",
+    "title" : "FHIR Device Operation Mode",
+    "description" : "The operation mode of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2107"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-operation-mode.html" : "FHIR Device Operation Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-specification-category",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceSpecializationCategory",
+    "title" : "FHIR Device Specialization Category",
+    "description" : "The kind of standards used by the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2054"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-specification-category.html" : "Device Specification Category"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceStatus",
+    "title" : "FHIR Device Status",
+    "description" : "The status of the Device record.",
+    "oids" : ["2.16.840.1.113883.4.642.4.210",
+    "2.16.840.1.113883.4.642.1.200"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-status.html" : "FHIR Device Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/fhir-types",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRTypes",
+    "title" : "All FHIR Types",
+    "description" : "One of the types defined as part of this version of FHIR.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1802"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-resource-types.html" : "Resource Types"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.1.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-intent",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestIntent",
+    "title" : "RequestIntent",
+    "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.114"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-intent.html" : "RequestIntent"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-priority",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestPriority",
+    "title" : "RequestPriority",
+    "description" : "Identifies the level of importance to be assigned to actioning the request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-priority.html" : "RequestPriority"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestStatus",
+    "title" : "RequestStatus",
+    "description" : "Codes identifying the lifecycle stage of a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.112"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-status.html" : "RequestStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/service-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ServiceMode",
+    "title" : "Service Mode",
+    "description" : "An example set of Service Modes that could be applicable to use to characterize HealthcareServices or PractitionerRoles while searching",
+    "oids" : ["2.16.840.1.113883.4.642.4.2116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-service-mode.html" : "Service Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/servicerequest-orderdetail-parameter-code",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ServiceRequestOrderDetailParameterCode",
+    "title" : "Service Request Order Detail Parameter Code",
+    "description" : "Codes providing the parameter codes for service request details.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-servicerequest-orderdetail-parameter-code.html" : "Servicerequest OrderDetail Parameter Code"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-combined",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenCombined",
+    "title" : "Specimen Combined",
+    "description" : "Codes providing the combined status of the specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2061"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-combined.html" : "Specimen Combined"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-role",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenRole",
+    "title" : "Specimen Role",
+    "description" : "Codes providing the combined status of the specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2060"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-role.html" : "Specimen Role"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenStatus",
+    "title" : "Specimen Status",
+    "description" : "Codes providing the status/availability of a specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.2.426",
+    "2.16.840.1.113883.4.642.1.465",
+    "2.16.840.1.113883.4.642.4.472"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-status.html" : "Specimen Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/udi-entry-type",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "UDIEntryType",
+    "title" : "UDI Entry Type",
+    "description" : "Codes to identify how UDI data was entered.",
+    "oids" : ["2.16.840.1.113883.4.642.4.212",
+    "2.16.840.1.113883.4.642.1.202"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-udi-entry-type.html" : "UDI Entry Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerRole",
+    "title" : "Practitioner role",
+    "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1132"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-practitioner-role.html" : "Practitioner Role"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierType",
+    "title" : "identifierType",
+    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "oids" : ["2.16.840.1.113883.18.108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "SpecimenCondition",
+    "title" : "specimenCondition",
+    "description" : "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment.",
+    "oids" : ["2.16.840.1.113883.18.317"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "RelevantClincialInformation",
+    "title" : "relevantClincialInformation",
+    "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
+    "oids" : ["2.16.840.1.113883.18.422"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+  }]
+}

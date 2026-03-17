@@ -1,0 +1,86 @@
+# A Request - Mal v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **A Request**
+
+## Example ServiceRequest: A Request
+
+A sample ParekServiceRequest, also referenced from other samples.
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "ARequest",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request"]
+  },
+  "contained" : [{
+    "resourceType" : "PractitionerRole",
+    "id" : "ARequester",
+    "meta" : {
+      "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr"]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekRequester, also referenced from other samples.</p></div>"
+    },
+    "practitioner" : {
+      "identifier" : {
+        "system" : "urn:oid:2.16.578.1.12.4.1.4.4",
+        "value" : "987"
+      },
+      "display" : "Somebody"
+    },
+    "organization" : {
+      "identifier" : {
+        "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
+        "value" : "987654"
+      },
+      "display" : "Someplace"
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://some.thing.unique",
+    "value" : "45678"
+  }],
+  "status" : "active",
+  "intent" : "plan",
+  "code" : {
+    "concept" : {
+      "text" : "Snomed something"
+    }
+  },
+  "orderDetail" : [{
+    "parameter" : [{
+      "code" : {
+        "text" : "Analyse"
+      },
+      "valueCodeableConcept" : {
+        "text" : "Blodsukker"
+      }
+    }]
+  }],
+  "subject" : {
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "12345678900"
+    }
+  },
+  "occurrencePeriod" : {
+    "end" : "2026-11-03"
+  },
+  "authoredOn" : "2026-03-13",
+  "requester" : {
+    "reference" : "#ARequester"
+  },
+  "note" : [{
+    "text" : "### Mardown header"
+  }]
+}
+
+```

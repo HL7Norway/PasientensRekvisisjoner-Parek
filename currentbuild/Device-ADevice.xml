@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="ADevice"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>A sample ParekDevice, also referenced from other samples.</p></div>
+  </text>
+  <identifier>
+    <system value="http://some.thing.unique"/>
+    <value value="someValue"/>
+  </identifier>
+  <name>
+    <value value="Et glass"/>
+    <type value="user-friendly-name"/>
+  </name>
+  <property>
+    <type>
+      <text value="Rating"/>
+    </type>
+    <valueString value="Rød kork"/>
+  </property>
+</Device>

@@ -1,0 +1,42 @@
+# hl7.fhir.no.ParekIG#0.1.0: Mal
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Organization Id Type CS](CodeSystem-organization-id-type-cs.md)
+* [Person Id Type CS](CodeSystem-person-id-type-cs.md)
+* [Public Id Type CS](CodeSystem-public-id-type-cs.md)
+
+### ValueSets
+
+* [Organization It Type VS](ValueSet-organization-it-type-vs.md)
+* [Person Id Type VS](ValueSet-person-id-type-vs.md)
+* [PublicIdType_VS](ValueSet-public-it-type-vs.md)
+* [Specimen Type VS](ValueSet-specimen-type-vs.md)
+
+### Resource Profiles
+
+* [ParekCollector](StructureDefinition-parek-collector-pr.md)
+* [Parek Device](StructureDefinition-parek-device.md)
+* [ParekPractitionerRole](StructureDefinition-parek-practitioner-role.md)
+* [ParekRequester](StructureDefinition-parek-requester-pr.md)
+* [ParekServiceRequest](StructureDefinition-parek-service-request.md)
+* [ParekSpecimen](StructureDefinition-parek-specimen.md)
+
+### ImplementationGuides
+
+* [Mal](index.md)
+
+### Examples
+
+* [ADevice (Device)](Device-ADevice.md)
+* [ACollector (PractitionerRole)](PractitionerRole-ACollector.md)
+* [ARequester (PractitionerRole)](PractitionerRole-ARequester.md)
+* [ARequest (ServiceRequest)](ServiceRequest-ARequest.md)
+* [ASpecimen (Specimen)](Specimen-ASpecimen.md)

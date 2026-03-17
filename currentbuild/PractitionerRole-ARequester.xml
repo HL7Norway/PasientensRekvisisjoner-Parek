@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="ARequester"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>A sample ParekRequester, also referenced from other samples.</p></div>
+  </text>
+  <practitioner>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.4"/>
+      <value value="987"/>
+    </identifier>
+    <display value="Somebody"/>
+  </practitioner>
+  <organization>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.101"/>
+      <value value="987654"/>
+    </identifier>
+    <display value="Someplace"/>
+  </organization>
+</PractitionerRole>
