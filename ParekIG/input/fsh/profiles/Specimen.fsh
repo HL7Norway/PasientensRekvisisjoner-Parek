@@ -20,8 +20,8 @@ Description: "Specimen as used in Parek."
   * collected[x] only dateTime
   * collected[x] 1..1
 * container 1..*
-* contained 1..1
-* contained only ParekCollector
+* contained 2..*
+* contained only ParekCollector or ParekDevice
 * request 1..1
 
 
@@ -49,4 +49,5 @@ Description: "Example of ParekSpecimen"
 * container
   * device = Reference(ADevice)
 * contained[+] = ACollector
+* contained[+] = ADevice
 * request = Reference(ARequest)

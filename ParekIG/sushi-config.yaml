@@ -6,7 +6,7 @@
 id: hl7.fhir.no.ParekIG
 canonical: http://hl7.no/fhir/ig/ParekIG
 name: ParekIG
-title: "Mal"
+title: "Pasientens rekvisisjoner"
 description: Implementasjonsguide for Pasientens rekvisisjoner
 status: draft
 version: 0.1.0

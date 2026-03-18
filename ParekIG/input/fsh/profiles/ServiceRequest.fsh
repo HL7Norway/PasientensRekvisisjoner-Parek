@@ -20,8 +20,10 @@ Description: "ServiceRecuest as used in Parek."
 * contained 1..1
 * contained only ParekRequester
 * orderDetail 1..*
+  * parameterFocus 1..1
+  * parameterFocus.concept 1..1
   * parameter
-    * value[x] only CodeableConcept or Quantity
+    * value[x] only CodeableConcept or Quantity or string
 * occurrence[x] 1..1
 * occurrence[x] only Period
 * authoredOn 1..1
@@ -51,6 +53,8 @@ Description: "Example of ParekServiceRequest"
 * requester = Reference(ARequester)
 * contained[+] = ARequester
 * orderDetail
+  * parameterFocus
+    * concept.text = "Blodprøve"
   * parameter
     * code.text = "Analyse"
     * valueCodeableConcept.text = "Blodsukker"
