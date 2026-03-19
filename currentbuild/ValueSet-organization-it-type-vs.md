@@ -1,4 +1,4 @@
-# Organization It Type VS - Pasientens rekvisisjoner v0.1.0
+# Organization It Type VS - Pasientens rekvisisjoner v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs | *Version*:0.1.1 |
 | Draft as of 2026-03-19 | *Computable Name*:OrganizationIdType_VS |
 
  
@@ -47,11 +47,11 @@ Id types for organizations involved in DiagnosticReport/Observation
   "resourceType" : "ValueSet",
   "id" : "organization-it-type-vs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "OrganizationIdType_VS",
   "title" : "Organization It Type VS",
   "status" : "draft",
-  "date" : "2026-03-19T07:57:25+00:00",
+  "date" : "2026-03-19T11:47:55+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

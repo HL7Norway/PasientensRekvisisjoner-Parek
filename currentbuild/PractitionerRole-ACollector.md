@@ -1,4 +1,4 @@
-# Parek Collector - Pasientens rekvisisjoner v0.1.0
+# Parek Collector - Pasientens rekvisisjoner v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,12 +19,12 @@ A sample ParekCollector, also referenced from other samples.
   "meta" : {
     "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"]
   },
-  "organization" : {
+  "practitioner" : {
     "identifier" : {
-      "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
-      "value" : "876543"
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.4",
+      "value" : "987"
     },
-    "display" : "Someplace"
+    "display" : "Somebody"
   }
 }
 

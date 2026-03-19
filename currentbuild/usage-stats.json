@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.ParekIG",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "fhirVersion": "5.0.0",
   "jurisdiction": "NO",
   "extensions": [],

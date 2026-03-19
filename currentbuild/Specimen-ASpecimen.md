@@ -1,4 +1,4 @@
-# A Specimen - Pasientens rekvisisjoner v0.1.0
+# A Specimen - Pasientens rekvisisjoner v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -29,12 +29,12 @@ A sample ParekSpecimen, references other samples.
       "status" : "generated",
       "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekCollector, also referenced from other samples.</p></div>"
     },
-    "organization" : {
+    "practitioner" : {
       "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
-        "value" : "876543"
+        "system" : "urn:oid:2.16.578.1.12.4.1.4.4",
+        "value" : "987"
       },
-      "display" : "Someplace"
+      "display" : "Somebody"
     }
   },
   {

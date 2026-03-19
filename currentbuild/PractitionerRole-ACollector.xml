@@ -8,11 +8,11 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>A sample ParekCollector, also referenced from other samples.</p></div>
   </text>
-  <organization>
+  <practitioner>
     <identifier>
-      <system value="urn:oid:2.16.578.1.12.4.1.4.101"/>
-      <value value="876543"/>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.4"/>
+      <value value="987"/>
     </identifier>
-    <display value="Someplace"/>
-  </organization>
+    <display value="Somebody"/>
+  </practitioner>
 </PractitionerRole>

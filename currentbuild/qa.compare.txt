@@ -72,7 +72,7 @@ INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.defini
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 == fsh-generated/resources/PractitionerRole-ACollector.json ==
-WARNING: PractitionerRole/ACollector: PractitionerRole.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
+WARNING: PractitionerRole/ACollector: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 == fsh-generated/resources/PractitionerRole-ARequester.json ==
 WARNING: PractitionerRole/ARequester: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: PractitionerRole/ARequester: PractitionerRole.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
@@ -82,7 +82,7 @@ WARNING: ServiceRequest/ARequest: ServiceRequest.contained[0]/*PractitionerRole/
 WARNING: ServiceRequest/ARequest: ServiceRequest.identifier[0].system: No definition could be found for URL value 'http://some.thing.unique'
 WARNING: ServiceRequest/ARequest: ServiceRequest.subject.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/Specimen-ASpecimen.json ==
-WARNING: Specimen/ASpecimen: Specimen.contained[0]/*PractitionerRole/ACollector*/.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
+WARNING: Specimen/ASpecimen: Specimen.contained[0]/*PractitionerRole/ACollector*/.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: Specimen/ASpecimen: Specimen.contained[1]/*Device/ADevice*/.identifier[0].system: No definition could be found for URL value 'http://some.thing.unique'
 WARNING: Specimen/ASpecimen: Specimen.identifier[0].system: No definition could be found for URL value 'http://some.thing.unique'
 WARNING: Specimen/ASpecimen: Specimen.type.coding[0].system: A definition for CodeSystem 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351' could not be found, so the code cannot be validated

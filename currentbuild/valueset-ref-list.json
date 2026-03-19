@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "status" : "draft",
     "name" : "OrganizationIdType_VS",
     "title" : "Organization It Type VS",
@@ -13,7 +13,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "status" : "draft",
     "name" : "PersonIdType_VS",
     "title" : "Person Id Type VS",
@@ -26,7 +26,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "status" : "draft",
     "name" : "PublicIdType_VS",
     "title" : "PublicIdType_VS",
@@ -34,12 +34,12 @@
     "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest"
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen"
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "status" : "draft",
     "name" : "SpecimenType_VS",
     "title" : "Specimen Type VS",
