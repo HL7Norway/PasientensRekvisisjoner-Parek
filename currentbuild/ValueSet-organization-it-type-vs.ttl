@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "OrganizationIdType_VS"] ; # 
   fhir:title [ fhir:v "Organization It Type VS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-17T13:48:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-19T07:57:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;

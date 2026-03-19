@@ -68,6 +68,11 @@
      ]
   ] ; # 
   fhir:orderDetail ( [
+     fhir:parameterFocus [
+       fhir:concept [
+         fhir:text [ fhir:v "Blodprøve" ]
+       ]
+     ] ;
      fhir:parameter ( [
        fhir:code [
          fhir:text [ fhir:v "Analyse" ]

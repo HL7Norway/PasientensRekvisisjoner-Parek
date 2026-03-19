@@ -1,4 +1,4 @@
-# Parek Collector - Mal v0.1.0
+# Parek Collector - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

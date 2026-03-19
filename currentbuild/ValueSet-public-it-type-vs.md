@@ -1,4 +1,4 @@
-# PublicIdType_VS - Mal v0.1.0
+# PublicIdType_VS - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:PublicIdType_VS |
+| Draft as of 2026-03-19 | *Computable Name*:PublicIdType_VS |
 
  
 Id types used to identify patients 
@@ -17,6 +17,8 @@ Id types used to identify patients
  **References** 
 
 * [ParekServiceRequest](StructureDefinition-parek-service-request.md)
+* [ParekServiceRequest](StructureDefinition-parek-service-request.md)
+* [ParekSpecimen](StructureDefinition-parek-specimen.md)
 * [ParekSpecimen](StructureDefinition-parek-specimen.md)
 
 ### Logical Definition (CLD)
@@ -51,7 +53,7 @@ Id types used to identify patients
   "name" : "PublicIdType_VS",
   "title" : "PublicIdType_VS",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

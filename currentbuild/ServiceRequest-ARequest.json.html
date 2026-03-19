@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>A Request - JSON Representation - Mal v0.1.0</title>
+    <title>A Request - JSON Representation - Pasientens rekvisisjoner v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Mal</span>
+          <p><span style="font-size:12pt;font-weight:bold">Pasientens rekvisisjoner</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -136,7 +136,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Mal - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Pasientens rekvisisjoner - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -248,6 +248,11 @@
   },
   "<a href="http://hl7.org/fhir/R5/servicerequest.html#XServiceRequest.orderDetail">orderDetail</a>" : [
     {
+      "<a href="http://hl7.org/fhir/R5/servicerequest.html#XServiceRequest.orderDetail.parameterFocus">parameterFocus</a>" : {
+        "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "Blodprøve"
+        }
+      },
       "<a href="http://hl7.org/fhir/R5/servicerequest.html#XServiceRequest.orderDetail.parameter">parameter</a>" : [
         {
           "<a href="http://hl7.org/fhir/R5/servicerequest.html#XServiceRequest.orderDetail.parameter.code">code</a>" : {
@@ -302,7 +307,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Mar 17, 2026 13:48+0000">2026-03-17</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 19, 2026 07:57+0000">2026-03-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

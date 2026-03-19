@@ -1,4 +1,4 @@
-# ParekCollector - Mal v0.1.0
+# ParekCollector - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:ParekCollector |
+| Draft as of 2026-03-19 | *Computable Name*:ParekCollector |
 
 **Usages:**
 
@@ -39,7 +39,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-collector-pr.c
   "version" : "0.1.0",
   "name" : "ParekCollector",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

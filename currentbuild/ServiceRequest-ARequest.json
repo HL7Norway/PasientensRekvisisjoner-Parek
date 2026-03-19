@@ -45,6 +45,11 @@
     }
   },
   "orderDetail" : [{
+    "parameterFocus" : {
+      "concept" : {
+        "text" : "Blodprøve"
+      }
+    },
     "parameter" : [{
       "code" : {
         "text" : "Analyse"

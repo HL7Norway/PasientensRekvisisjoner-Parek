@@ -1,4 +1,4 @@
-# Organization Id Type CS - Mal v0.1.0
+# Organization Id Type CS - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:OrganizationIdType_CS |
+| Draft as of 2026-03-19 | *Computable Name*:OrganizationIdType_CS |
 
  
 Id types used to identify organizations. 
@@ -31,7 +31,7 @@ Id types used to identify organizations.
   "name" : "OrganizationIdType_CS",
   "title" : "Organization Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

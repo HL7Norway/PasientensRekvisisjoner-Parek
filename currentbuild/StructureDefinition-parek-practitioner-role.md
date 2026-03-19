@@ -1,4 +1,4 @@
-# ParekPractitionerRole - Mal v0.1.0
+# ParekPractitionerRole - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:ParekPractitionerRole |
+| Draft as of 2026-03-19 | *Computable Name*:ParekPractitionerRole |
 
  
 PractitionerRole as used in Parek. Used to combine actors of type Practitioner and Organization. Practitioner and Organization are referenced by their Identifier. This is an 'abstract' base profile for ParekRequester and ParekCollector. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
   "version" : "0.1.0",
   "name" : "ParekPractitionerRole",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

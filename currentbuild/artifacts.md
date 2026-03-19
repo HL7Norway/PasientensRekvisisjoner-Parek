@@ -1,4 +1,4 @@
-# Artifacts Summary - Mal v0.1.0
+# Artifacts Summary - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

@@ -1,4 +1,4 @@
-# Parek Device - Mal v0.1.0
+# Parek Device - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:ParekDevice |
+| Draft as of 2026-03-19 | *Computable Name*:ParekDevice |
 
  
 Device as used in Parek. 
 
 **Usages:**
 
+* Use this Profile: [ParekSpecimen](StructureDefinition-parek-specimen.md)
 * Examples for this Profile: [Device/ADevice](Device-ADevice.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.ParekIG|current/StructureDefinition/parek-device)
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-device.csv), [
   "name" : "ParekDevice",
   "title" : "Parek Device",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

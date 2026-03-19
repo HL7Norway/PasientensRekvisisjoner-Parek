@@ -45,6 +45,11 @@
     </concept>
   </code>
   <orderDetail>
+    <parameterFocus>
+      <concept>
+        <text value="Blodprøve"/>
+      </concept>
+    </parameterFocus>
     <parameter>
       <code>
         <text value="Analyse"/>

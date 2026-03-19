@@ -1,4 +1,4 @@
-# ParekServiceRequest - Mal v0.1.0
+# ParekServiceRequest - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:ParekServiceRequest |
+| Draft as of 2026-03-19 | *Computable Name*:ParekServiceRequest |
 
  
 ServiceRecuest as used in Parek. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
   "version" : "0.1.0",
   "name" : "ParekServiceRequest",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -130,6 +130,16 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
       "min" : 1
     },
     {
+      "id" : "ServiceRequest.orderDetail.parameterFocus",
+      "path" : "ServiceRequest.orderDetail.parameterFocus",
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.orderDetail.parameterFocus.concept",
+      "path" : "ServiceRequest.orderDetail.parameterFocus.concept",
+      "min" : 1
+    },
+    {
       "id" : "ServiceRequest.orderDetail.parameter.value[x]",
       "path" : "ServiceRequest.orderDetail.parameter.value[x]",
       "type" : [{
@@ -137,6 +147,9 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
       },
       {
         "code" : "CodeableConcept"
+      },
+      {
+        "code" : "string"
       }]
     },
     {

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Home - Mal v0.1.0</title>
+    <title>Home - Pasientens rekvisisjoner v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Mal</span>
+          <p><span style="font-size:12pt;font-weight:bold">Pasientens rekvisisjoner</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -141,7 +141,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Mal - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Pasientens rekvisisjoner - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -172,7 +172,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2026-03-17
+            as of 2026-03-19
           
         
       </td>
@@ -198,49 +198,111 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#tittel" id="markdown-toc-tittel">Tittel</a></li>
-  <li><a href="#mål" id="markdown-toc-mål">Mål</a></li>
-  <li><a href="#omfang" id="markdown-toc-omfang">Omfang</a></li>
-  <li><a href="#brukstilfeller" id="markdown-toc-brukstilfeller">Brukstilfeller</a></li>
-  <li><a href="#figur" id="markdown-toc-figur">Figur</a></li>
+  <li><a href="#introduksjon" id="markdown-toc-introduksjon">Introduksjon</a></li>
+  <li><a href="#implementasjonsguiden" id="markdown-toc-implementasjonsguiden">Implementasjonsguiden</a></li>
 </ul>
 
 </div>
-<h3 id="tittel">Tittel</h3>
+<h3 id="introduksjon">Introduksjon</h3>
 
-<p>Introduksjonstekst (husk at dette er en mal, og ALL tekst må endres - dette er kun et eksempel)</p>
+<p>Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekning i tid og rom. Innenfor denne konteksten kan det tas prøver eller bilder og analyseresultater blir tilgjengelige for legen. Konteksten kan være en innleggelse, en avtale eller avtale med oppfølgingsavtale innenfor få dager. Kommunikasjon er typisk elektronisk, men kan også bestå i at pasient får med seg et ark med informasjon om hvilke prøver som skal tas.</p>
+<pre><code class="language-mermaid">---
+title: Original/normal requisition flow
+---
+sequenceDiagram
+%%{init: {'sequence': {'mirrorActors':false}}}%%
+    actor Requester
+    actor Patient
+    actor Sampler
+    actor Laboratory
 
-<h3 id="mål">Mål</h3>
+    Requester-&gt;&gt;Sampler: Requisition
+    activate Sampler
+    Sampler-&gt;&gt;Patient: Aquire samples
+    activate Patient
+    deactivate Patient
+    Sampler-&gt;&gt;Laboratory: Samples and requisition
+    deactivate Sampler
+    activate Laboratory
+    Laboratory-&gt;&gt;Requester: Results
+    deactivate Laboratory
+</code></pre>
 
-<p>Målet med denne implementasjonsguiden er å gi en standardisert måte å representere og utveksle helsedata på ved hjelp av HL7 FHIR. Guiden beskriver hvordan ulike FHIR-profiler og ressurser kan brukes for å oppnå interoperabilitet mellom helsesystemer.</p>
-
-<h3 id="omfang">Omfang</h3>
-
-<p>Denne implementasjonsguiden dekker følgende områder:</p>
-
+<p>Det er to forhold som utfordrer denne lukkede konteksten</p>
 <ul>
-  <li>Pasientadministrasjon</li>
-  <li>Kliniske observasjoner</li>
-  <li>Medisinsk historikk</li>
-  <li>Behandlingsplaner</li>
-  <li>Laboratorieresultater</li>
+  <li>Behov for å frikoble prøvetaking og analysearbeid fra rekvirent
+    <ul>
+      <li>Pasienten kan møte opp hvor som helst og få tatt prøvene og de kan sendes til et hvilket som helt laboratorim for analyser.</li>
+      <li>"Frikobling i rom".</li>
+    </ul>
+  </li>
+  <li>Behov for å frikoble prøvetaking og analysearbeid fra nåværende kontekst
+    <ul>
+      <li>Pasienten skal møte opp på et senere tidspunkt og få tatt prøvene, typisk i forkant av en oppfølgingsavtale et stykke (flere måneder) fram i tid.</li>
+      <li>"Frikobling i tid".</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="brukstilfeller">Brukstilfeller</h3>
+<p>Prosjekt "<strong>Pasientens rekvisisjoner</strong>" (<strong>Parek</strong>) er etablert for å løse disse utfordringene.</p>
 
-<h4 id="pasientregistrering">Pasientregistrering</h4>
+<p>Første fase av prosjektet handler primært om andre kulepunkt. Selv om det i prinsippet ikke er noe som hindrer at også første kulepunkt dekkes så vil det være begrensninger (f.eks. bruk av lokale kodeverk) i selve datainnholdet som i praksis utelukker at prøver kan tas eller analyseres andre steder enn de forhåndsvalgte. Dette er en flyt som allerede brukes en god del, men den er "manuell" har svakheter som gjerne bunner i at pasient møter opp som avtalt til oppfølging, men har glemt å ta de prøvene som skulle tas. Prosjektet tar sikte på å forvalte orkestreringen av aktørene for at denne flyten skal fungere mer optimalt.</p>
 
-<p>Denne guiden beskriver hvordan pasienter kan registreres i et helsesystem ved hjelp av FHIR <code class="language-plaintext highlighter-rouge">Patient</code>-ressursen. Eksempler inkluderer opprettelse, oppdatering og sletting av pasientdata.</p>
+<pre><code class="language-mermaid">---
+title: Requisition flow with Parek
+---
+sequenceDiagram
+%%{init: {'sequence': {'mirrorActors':false}}}%%
+    actor Requester
+    actor Parek
+    actor Patient
+    actor Sampler
+    actor Laboratory
 
-<h4 id="kliniske-observasjoner">Kliniske observasjoner</h4>
+    rect rgb(100, 190, 255)
+        Requester-&gt;&gt;Parek: Requisition
+        Note over Parek: Wait until samples are due
+        activate Parek
+        Parek-)Patient: Reminder
+        activate Patient
+        Patient-&gt;&gt;Sampler: Visits sampler
+        activate Sampler
+        loop
+            Sampler-&gt;Sampler: Collect sample
+            Sampler-&gt;&gt;Parek: Record samples
+        end
+        deactivate Patient
+        Sampler-&gt;&gt;Laboratory: Samples
+        deactivate Sampler
+        Parek--&gt;&gt;Requester: All samples collected
+        deactivate Parek
+    end
+    Requester-&gt;&gt;Laboratory: Final requisition
+    activate Laboratory
+    Laboratory--&gt;&gt;Requester: Results
+    deactivate Laboratory
+</code></pre>
 
-<p>Guiden viser hvordan kliniske observasjoner som blodtrykk, puls og temperatur kan representeres ved hjelp av FHIR <code class="language-plaintext highlighter-rouge">Observation</code>-ressursen.</p>
+<p>I denne figuren er den del av orkestreringen som Parek tar hånd om markert med blå bakgrunn. Nederst er resten av den manuelle flyten som forvaltes av rekvirenten selv, nå i forvisning om at ting er på plass og har skjedd som de skal.</p>
 
-<h3 id="figur">Figur</h3>
+<h3 id="implementasjonsguiden">Implementasjonsguiden</h3>
 
-<p>Eksempel på en figur laget med PlantUML.</p>
+<p>Denne implementasjonsguiden definerer de ressursene som inngår i den flyten av data som forvaltes av Parek.</p>
+<pre><code class="language-mermaid">---
+title: FHIR resources in Parek
+---
+classDiagram
+    ServiceRequest &lt;-- Specimen
+    ServiceRequest : +PractitionerRole requester
+    ServiceRequest : +List(OrderDetail) orderDetail
+    ServiceRequest : +List(resource) contained
+    Specimen : +PractitionerRole collector
+    Specimen : +List(Device) device
+    Specimen : +List(resource) contained
+</code></pre>
+<p>Siden Parek ikke er, eller har tilgang til, førstehåndsinformasjon om helsepersonell vil alle PractitionerRole-instanser være contained i den aktuelle ressurs. Det samme gjelder Device som kun eksisterer i kontekst av prøven de inneholder.</p>
 
-<p><img src="test.svg" width="40%" /></p>
+<p>ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refereranse til ServiceRequest. Parek bruker denne informasjonen til å finne ut om alle forventede prøver er tatt og endrer status fra "active" til "completed".</p>
 
 
 
@@ -261,7 +323,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Mar 17, 2026 13:48+0000">2026-03-17</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 19, 2026 07:57+0000">2026-03-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

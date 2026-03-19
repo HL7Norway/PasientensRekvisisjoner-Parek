@@ -1,4 +1,4 @@
-# A Specimen - Mal v0.1.0
+# A Specimen - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -36,6 +36,31 @@ A sample ParekSpecimen, references other samples.
       },
       "display" : "Someplace"
     }
+  },
+  {
+    "resourceType" : "Device",
+    "id" : "ADevice",
+    "meta" : {
+      "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device"]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekDevice, also referenced from other samples.</p></div>"
+    },
+    "identifier" : [{
+      "system" : "http://some.thing.unique",
+      "value" : "someValue"
+    }],
+    "name" : [{
+      "value" : "Et glass",
+      "type" : "user-friendly-name"
+    }],
+    "property" : [{
+      "type" : {
+        "text" : "Rating"
+      },
+      "valueString" : "Rød kork"
+    }]
   }],
   "identifier" : [{
     "system" : "http://some.thing.unique",
@@ -64,7 +89,7 @@ A sample ParekSpecimen, references other samples.
   },
   "container" : [{
     "device" : {
-      "reference" : "Device/ADevice"
+      "reference" : "#ADevice"
     }
   }]
 }

@@ -1,4 +1,4 @@
-# Organization It Type VS - Mal v0.1.0
+# Organization It Type VS - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:OrganizationIdType_VS |
+| Draft as of 2026-03-19 | *Computable Name*:OrganizationIdType_VS |
 
  
 Id types for organizations involved in DiagnosticReport/Observation 
 
  **References** 
 
+* [ParekPractitionerRole](StructureDefinition-parek-practitioner-role.md)
 * [ParekPractitionerRole](StructureDefinition-parek-practitioner-role.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ Id types for organizations involved in DiagnosticReport/Observation
   "name" : "OrganizationIdType_VS",
   "title" : "Organization It Type VS",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

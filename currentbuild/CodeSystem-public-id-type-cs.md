@@ -1,4 +1,4 @@
-# Public Id Type CS - Mal v0.1.0
+# Public Id Type CS - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:PublicIdType_CS |
+| Draft as of 2026-03-19 | *Computable Name*:PublicIdType_CS |
 
  
 Id types used to identify patients 
@@ -32,7 +32,7 @@ Id types used to identify patients
   "name" : "PublicIdType_CS",
   "title" : "Public Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

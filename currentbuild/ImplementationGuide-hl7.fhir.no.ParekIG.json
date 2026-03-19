@@ -8,9 +8,9 @@
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
   "version" : "0.1.0",
   "name" : "ParekIG",
-  "title" : "Mal",
+  "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -53,7 +53,7 @@
   "definition" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r5#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r5#1.1.0"
     }],
     "resource" : [{
       "extension" : [{

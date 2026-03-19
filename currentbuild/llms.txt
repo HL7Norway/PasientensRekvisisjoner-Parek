@@ -1,4 +1,4 @@
-# hl7.fhir.no.ParekIG#0.1.0: Mal
+# hl7.fhir.no.ParekIG#0.1.0: Pasientens rekvisisjoner
 
 ## Pages
 
@@ -31,7 +31,7 @@
 
 ### ImplementationGuides
 
-* [Mal](index.md)
+* [Pasientens rekvisisjoner](index.md)
 
 ### Examples
 

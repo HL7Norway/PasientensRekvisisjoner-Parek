@@ -42,6 +42,39 @@
        ] ;
        fhir:display [ fhir:v "Someplace" ]
      ]
+  ] [
+     a fhir:Device ;
+     fhir:id [ fhir:v "ADevice" ] ;
+     fhir:meta [
+       fhir:profile ( [
+         fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device>
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>A sample ParekDevice, also referenced from other samples.</p></div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:identifier ( [
+       fhir:system [
+         fhir:v "http://some.thing.unique"^^xsd:anyURI ;
+         fhir:l <http://some.thing.unique>
+       ] ;
+       fhir:value [ fhir:v "someValue" ]
+     ] ) ;
+     fhir:name ( [
+       fhir:value [ fhir:v "Et glass" ] ;
+       fhir:type [ fhir:v "user-friendly-name" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:type [
+         fhir:text [ fhir:v "Rating" ]
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Rød kork"
+       ]
+     ] )
   ] ) ; # 
   fhir:identifier ( [
      fhir:system [
@@ -84,8 +117,8 @@
   ] ; # 
   fhir:container ( [
      fhir:device [
-       fhir:l <http://hl7.no/fhir/ig/ParekIG/Device/ADevice> ;
-       fhir:reference [ fhir:v "Device/ADevice" ]
+       fhir:l <#ADevice> ;
+       fhir:reference [ fhir:v "#ADevice" ]
      ]
   ] ) . # 
 

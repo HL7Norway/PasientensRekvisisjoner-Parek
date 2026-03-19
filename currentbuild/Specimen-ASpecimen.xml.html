@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>A Specimen - XML Representation - Mal v0.1.0</title>
+    <title>A Specimen - XML Representation - Pasientens rekvisisjoner v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Mal</span>
+          <p><span style="font-size:12pt;font-weight:bold">Pasientens rekvisisjoner</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -136,7 +136,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Mal - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Pasientens rekvisisjoner - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -223,6 +223,33 @@
       &lt;/<a href="http://hl7.org/fhir/R5/practitionerrole.html#XPractitionerRole.organization">organization</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R5/practitionerrole.html#XPractitionerRole">PractitionerRole</a>&gt;
   &lt;/contained&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice">contained</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice">Device</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/resource.html#XDevice.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;ADevice&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/resource.html#XDevice.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                 <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XDevice.meta">meta</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XDevice.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;A sample ParekDevice, also referenced from other samples.&lt;/p&gt;&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XDevice.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://some.thing.unique&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;someValue&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/device.html#XDevice.identifier">identifier</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.name">name</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.name.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Et glass&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.name.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;user-friendly-name&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/device.html#XDevice.name">name</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.property">property</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.property.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Rating&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/device.html#XDevice.property.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/device.html#XDevice.property.value_x_">valueString</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Rød kork&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/device.html#XDevice.property">property</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/device.html#XDevice">Device</a>&gt;
+  &lt;/contained&gt;
   &lt;<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://some.thing.unique&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;some.specimen.id&quot;/&gt;
@@ -249,8 +276,8 @@
     &lt;<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.collection.collected_x_">collectedDateTime</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2026-03-13&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.collection">collection</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.container">container</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.container.device">device</a>&gt;<a href="Device-ADevice.html" style="color: Maroon">&#x1F517;</a> 
-      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Device/ADevice&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.container.device">device</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;#ADevice&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.container.device">device</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen.container">container</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/specimen.html#XSpecimen">Specimen</a>&gt;</code></pre>
@@ -277,7 +304,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Mar 17, 2026 13:48+0000">2026-03-17</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 19, 2026 07:57+0000">2026-03-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

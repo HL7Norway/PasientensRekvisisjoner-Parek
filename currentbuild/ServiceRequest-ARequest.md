@@ -1,4 +1,4 @@
-# A Request - Mal v0.1.0
+# A Request - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -56,6 +56,11 @@ A sample ParekServiceRequest, also referenced from other samples.
     }
   },
   "orderDetail" : [{
+    "parameterFocus" : {
+      "concept" : {
+        "text" : "Blodprøve"
+      }
+    },
     "parameter" : [{
       "code" : {
         "text" : "Analyse"

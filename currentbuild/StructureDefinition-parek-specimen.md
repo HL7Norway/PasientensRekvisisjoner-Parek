@@ -1,4 +1,4 @@
-# ParekSpecimen - Mal v0.1.0
+# ParekSpecimen - Pasientens rekvisisjoner v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen | *Version*:0.1.0 |
-| Draft as of 2026-03-17 | *Computable Name*:ParekSpecimen |
+| Draft as of 2026-03-19 | *Computable Name*:ParekSpecimen |
 
  
 Specimen as used in Parek. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-specimen.csv),
   "version" : "0.1.0",
   "name" : "ParekSpecimen",
   "status" : "draft",
-  "date" : "2026-03-17T13:48:48+00:00",
+  "date" : "2026-03-19T07:57:25+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -86,11 +86,14 @@ Other representations of profile: [CSV](StructureDefinition-parek-specimen.csv),
     {
       "id" : "Specimen.contained",
       "path" : "Specimen.contained",
-      "min" : 1,
-      "max" : "1",
+      "min" : 2,
       "type" : [{
         "code" : "PractitionerRole",
         "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"]
+      },
+      {
+        "code" : "Device",
+        "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device"]
       }]
     },
     {

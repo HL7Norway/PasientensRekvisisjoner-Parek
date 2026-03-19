@@ -36,6 +36,21 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:ServiceRequest/f:orderDetail</sch:title>
+    <sch:rule context="f:ServiceRequest/f:orderDetail">
+      <sch:assert test="count(f:parameterFocus) &gt;= 1">parameterFocus: minimum cardinality of 'parameterFocus' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:ServiceRequest/f:orderDetail/f:parameterFocus</sch:title>
+    <sch:rule context="f:ServiceRequest/f:orderDetail/f:parameterFocus">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:concept) &gt;= 1">concept: minimum cardinality of 'concept' is 1</sch:assert>
+      <sch:assert test="count(f:concept) &lt;= 1">concept: maximum cardinality of 'concept' is 1</sch:assert>
+      <sch:assert test="count(f:reference) &lt;= 1">reference: maximum cardinality of 'reference' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:ServiceRequest/f:subject</sch:title>
     <sch:rule context="f:ServiceRequest/f:subject">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
