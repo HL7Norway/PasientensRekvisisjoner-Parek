@@ -32,7 +32,7 @@ Id: parek-requester-pr
 Profile: ParekCollector
 Parent: ParekPractitionerRole
 Id: parek-collector-pr 
-* organization 1..1
+* practitioner 1..1
 
 
 Instance: ARequester
@@ -66,8 +66,8 @@ Description: "Example of collector with only organization"
   <p>A sample ParekCollector, also referenced from other samples.</p>
   </div>"""
 
-* organization
-  * display = "Someplace"
+* practitioner
+  * display = "Somebody"
   * identifier
-    * system = "urn:oid:2.16.578.1.12.4.1.4.101"
-    * value = "876543"
+    * system = "urn:oid:2.16.578.1.12.4.1.4.4"
+    * value = "987"
