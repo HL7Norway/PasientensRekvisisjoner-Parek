@@ -6,7 +6,14 @@ Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekni
 title: Original/normal requisition flow
 ---
 sequenceDiagram
-%%{init: {'sequence': {'mirrorActors':false}}}%%
+%%{init: {
+    'sequence': {
+        'mirrorActors':false},
+        'useMaxHeigth': 0
+        },
+    'theme': 'base'}
+    }%%
+
     actor Requester
     actor Patient
     actor Sampler
