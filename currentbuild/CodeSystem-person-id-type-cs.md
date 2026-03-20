@@ -1,4 +1,4 @@
-# Person Id Type CS - Pasientens rekvisisjoner v0.1.1
+# Person Id Type CS - Pasientens rekvisisjoner v0.1.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs | *Version*:0.1.1 |
-| Draft as of 2026-03-19 | *Computable Name*:PersonIdType_CS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs | *Version*:0.1.2 |
+| Draft as of 2026-03-20 | *Computable Name*:PersonIdType_CS |
 
  
 Id types used to identify persons involved, other than the patient. 
@@ -27,11 +27,11 @@ Id types used to identify persons involved, other than the patient.
   "resourceType" : "CodeSystem",
   "id" : "person-id-type-cs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "PersonIdType_CS",
   "title" : "Person Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-19T11:47:55+00:00",
+  "date" : "2026-03-20T10:04:21+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

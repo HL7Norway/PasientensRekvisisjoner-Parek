@@ -1,4 +1,4 @@
-# Home - Pasientens rekvisisjoner v0.1.1
+# Home - Pasientens rekvisisjoner v0.1.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.1 |
-| Draft as of 2026-03-19 | *Computable Name*:ParekIG |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.2 |
+| Draft as of 2026-03-20 | *Computable Name*:ParekIG |
 
 ### Introduksjon
 
@@ -19,7 +19,14 @@ Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekni
 title: Original/normal requisition flow
 ---
 sequenceDiagram
-%%{init: {'sequence': {'mirrorActors':false}}}%%
+%%{init: {
+    'sequence': {
+        'mirrorActors':false},
+        'useMaxHeigth': 0
+        },
+    'theme': 'base'}
+    }%%
+
     actor Requester
     actor Patient
     actor Sampler
@@ -124,11 +131,11 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.ParekIG",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-19T11:47:55+00:00",
+  "date" : "2026-03-20T10:04:21+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

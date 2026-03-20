@@ -5,9 +5,9 @@
   "description" : "Implementasjonsguide for Pasientens rekvisisjoner",
   "status" : "draft",
   "package-id" : "hl7.fhir.no.ParekIG",
-  "ig-ver" : "0.1.1",
-  "date" : "Thu, 19 Mar, 2026 11:47:55 +0000",
-  "dateISO8601" : "2026-03-19T11:47:55+00:00",
+  "ig-ver" : "0.1.2",
+  "date" : "Fri, 20 Mar, 2026 10:04:21 +0000",
+  "dateISO8601" : "2026-03-20T10:04:21+00:00",
   "errs" : 10,
   "warnings" : 37,
   "hints" : 32,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "5.0.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1352576920
+  "maxMemory" : 1274288016
 }

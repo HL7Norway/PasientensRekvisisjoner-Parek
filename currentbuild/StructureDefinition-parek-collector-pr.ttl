@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr>
   ] ; # 
-  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "ParekCollector"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-19T11:47:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T10:04:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -95,7 +95,7 @@
        ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "0.1.1"
+         fhir:v "0.1.2"
        ]
      ] ) ;
      fhir:element ( [

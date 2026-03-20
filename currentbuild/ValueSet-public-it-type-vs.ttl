@@ -11,17 +11,17 @@
   fhir:id [ fhir:v "public-it-type-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet public-it-type-vs</b></p><a name=\"public-it-type-vs\"> </a><a name=\"hcpublic-it-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-public-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.1</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet public-it-type-vs</b></p><a name=\"public-it-type-vs\"> </a><a name=\"hcpublic-it-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-public-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.2</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs>
   ] ; # 
-  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "PublicIdType_VS"] ; # 
   fhir:title [ fhir:v "PublicIdType_VS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-19T11:47:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T10:04:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;

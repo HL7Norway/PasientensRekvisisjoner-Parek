@@ -17,11 +17,11 @@
      fhir:v "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG>
   ] ; # 
-  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "ParekIG"] ; # 
   fhir:title [ fhir:v "Pasientens rekvisisjoner"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-19T11:47:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T10:04:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;

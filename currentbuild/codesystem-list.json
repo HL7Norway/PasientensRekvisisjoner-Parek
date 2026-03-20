@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "status" : "draft",
     "name" : "OrganizationIdType_CS",
     "title" : "Organization Id Type CS",
@@ -9,7 +9,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "status" : "draft",
     "name" : "PersonIdType_CS",
     "title" : "Person Id Type CS",
@@ -17,7 +17,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "status" : "draft",
     "name" : "PublicIdType_CS",
     "title" : "Public Id Type CS",
