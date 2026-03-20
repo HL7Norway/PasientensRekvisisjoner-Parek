@@ -32,7 +32,7 @@ Id types used to identify patients
   "name" : "PublicIdType_CS",
   "title" : "Public Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-20T11:14:53+00:00",
+  "date" : "2026-03-20T11:25:24+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

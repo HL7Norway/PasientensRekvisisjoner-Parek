@@ -18,15 +18,15 @@ Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekni
 ---
 title: Original/normal requisition flow
 ---
-sequenceDiagram
 %%{init: {
     'sequence': {
-        'mirrorActors':false},
+        'mirrorActors':false,
         'useMaxHeigth': 0
         },
-    'theme': 'base'}
-    }%%
-
+    'theme': 'base'
+    }
+}%%
+sequenceDiagram
     actor Requester
     actor Patient
     actor Sampler
@@ -64,8 +64,15 @@ Første fase av prosjektet handler primært om andre kulepunkt. Selv om det i pr
 ---
 title: Requisition flow with Parek
 ---
+%%{init: {
+    'sequence': {
+        'mirrorActors':false,
+        'useMaxHeigth': 0
+        },
+    'theme': 'base'
+    }
+}%%
 sequenceDiagram
-%%{init: {'sequence': {'mirrorActors':false}}}%%
     actor Requester
     actor Parek
     actor Patient
@@ -135,7 +142,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-20T11:14:53+00:00",
+  "date" : "2026-03-20T11:25:24+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
