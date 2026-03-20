@@ -1,4 +1,4 @@
-# Parek Device - Pasientens rekvisisjoner v0.1.2
+# Parek Device - Pasientens rekvisisjoner v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device | *Version*:0.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device | *Version*:0.1.3 |
 | Draft as of 2026-03-20 | *Computable Name*:ParekDevice |
 
  
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-parek-device.csv), [
   "resourceType" : "StructureDefinition",
   "id" : "parek-device",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "ParekDevice",
   "title" : "Parek Device",
   "status" : "draft",
-  "date" : "2026-03-20T11:48:45+00:00",
+  "date" : "2026-03-20T12:42:40+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

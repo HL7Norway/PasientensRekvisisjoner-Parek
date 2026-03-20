@@ -1,4 +1,4 @@
-# hl7.fhir.no.ParekIG#0.1.2: Pasientens rekvisisjoner
+# hl7.fhir.no.ParekIG#0.1.3: Pasientens rekvisisjoner
 
 ## Pages
 

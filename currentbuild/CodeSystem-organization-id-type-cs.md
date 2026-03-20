@@ -1,4 +1,4 @@
-# Organization Id Type CS - Pasientens rekvisisjoner v0.1.2
+# Organization Id Type CS - Pasientens rekvisisjoner v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs | *Version*:0.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs | *Version*:0.1.3 |
 | Draft as of 2026-03-20 | *Computable Name*:OrganizationIdType_CS |
 
  
@@ -27,11 +27,11 @@ Id types used to identify organizations.
   "resourceType" : "CodeSystem",
   "id" : "organization-id-type-cs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "OrganizationIdType_CS",
   "title" : "Organization Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-20T11:48:45+00:00",
+  "date" : "2026-03-20T12:42:40+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

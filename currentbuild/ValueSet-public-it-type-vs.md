@@ -1,4 +1,4 @@
-# PublicIdType_VS - Pasientens rekvisisjoner v0.1.2
+# PublicIdType_VS - Pasientens rekvisisjoner v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs | *Version*:0.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs | *Version*:0.1.3 |
 | Draft as of 2026-03-20 | *Computable Name*:PublicIdType_VS |
 
  
@@ -49,11 +49,11 @@ Id types used to identify patients
   "resourceType" : "ValueSet",
   "id" : "public-it-type-vs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "PublicIdType_VS",
   "title" : "PublicIdType_VS",
   "status" : "draft",
-  "date" : "2026-03-20T11:48:45+00:00",
+  "date" : "2026-03-20T12:42:40+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
