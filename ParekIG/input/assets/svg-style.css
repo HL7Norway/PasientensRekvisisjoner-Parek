@@ -1,0 +1,5 @@
+.mermaid svg {
+  height: auto !important;
+  max-height: 100vh; /* Optional: cap height to viewport */
+  max-width: 100%;
+}
