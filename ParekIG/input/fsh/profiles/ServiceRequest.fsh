@@ -2,12 +2,21 @@ Profile: ParekServiceRequest
 Parent: ServiceRequest
 Id: parek-service-request
 Description: "ServiceRecuest as used in Parek."
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+
 * identifier ^definition = "External identifiers of the request. Generally not global, may be internal to a specific requester/system."
 * identifier 1..*
-* identifier 
-  * system 1..1
-//   * system from IdentifierSource_VS
+
+* identifier contains RequesterDefinedUuid 1..1
+* identifier[RequesterDefinedUuid]
+  * ^definition = "External system creating a ServiceRequst must provide a unique identifier for idem potency (to avoid duplicates)."
+  * system = "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"
   * value 1..1
+
+* identifier contains LocalId 0..* MS
+
 * subject only Reference(Patient)
 * subject
   * identifier 1..1
@@ -41,8 +50,8 @@ Description: "Example of ParekServiceRequest"
   <p>A sample ParekServiceRequest, also referenced from other samples.</p>
   </div>"""
 
-* identifier
-  * system = "http://some.thing.unique"
+* identifier[RequesterDefinedUuid]
+  * system = "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"
   * value = "45678"
 * subject
   * identifier

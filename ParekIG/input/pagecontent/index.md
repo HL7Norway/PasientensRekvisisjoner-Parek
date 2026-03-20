@@ -1,3 +1,9 @@
+html
+<style>
+  svg { height: auto !important; overflow: visible !important; }
+  .figure { height: auto !important; }
+</style>
+
 ### Introduksjon
 
 Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekning i tid og rom. Innenfor denne konteksten kan det tas prøver eller bilder og analyseresultater blir tilgjengelige for legen. Konteksten kan være en innleggelse, en avtale eller avtale med oppfølgingsavtale innenfor få dager. Kommunikasjon er typisk elektronisk, men kan også bestå i at pasient får med seg et ark med informasjon om hvilke prøver som skal tas.
