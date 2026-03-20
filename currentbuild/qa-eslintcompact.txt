@@ -89,4 +89,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
  (EXCEPTION)
 
 err = 10, warn = 37, info = 32
-IG Publisher Version: 2.2.0
+IG Publisher Version: 2.2.1

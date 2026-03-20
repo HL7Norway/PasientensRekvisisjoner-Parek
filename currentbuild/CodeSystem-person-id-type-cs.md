@@ -31,7 +31,7 @@ Id types used to identify persons involved, other than the patient.
   "name" : "PersonIdType_CS",
   "title" : "Person Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-20T10:04:21+00:00",
+  "date" : "2026-03-20T11:14:53+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

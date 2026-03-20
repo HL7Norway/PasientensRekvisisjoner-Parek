@@ -9,9 +9,9 @@
     "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
@@ -24,9 +24,9 @@
     "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs",
@@ -67,11 +67,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.21"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-device.html" : "Parek Device"
   },
   {
@@ -107,9 +107,9 @@
     "2.16.840.1.113883.3.88.12.80.72"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-availability-status",
@@ -285,11 +285,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-device.html" : "Parek Device"
   },
   {
@@ -304,11 +304,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-device.html" : "Parek Device"
   },
   {
@@ -325,11 +325,11 @@
     "2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
     "StructureDefinition-parek-device.html" : "Parek Device"
   },
   {
@@ -381,9 +381,9 @@
     "2.16.840.1.113883.4.642.3.439"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -475,11 +475,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.27"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/service-mode",
@@ -493,9 +493,9 @@
     "sources" : ["2.16.840.1.113883.4.642.4.3322"],
     "uses" : {
     },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+    "StructureDefinition-parek-collector-pr.html" : "ParekCollector"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
