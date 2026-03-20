@@ -50,7 +50,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 400
+        'useMaxHeigth': 0
         },
     'theme': 'base'
     }
