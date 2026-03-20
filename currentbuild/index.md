@@ -142,7 +142,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-20T12:42:40+00:00",
+  "date" : "2026-03-20T12:57:31+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -392,6 +392,18 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
       },
       "name" : "PublicIdType_VS",
       "description" : "Id types used to identify patients",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/RequesterDefinedUuid"
+      },
+      "name" : "RequesterDefinedUuid",
+      "description" : "NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice.",
       "isExample" : false
     },
     {

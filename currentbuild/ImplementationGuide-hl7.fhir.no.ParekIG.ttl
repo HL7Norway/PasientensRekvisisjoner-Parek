@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ParekIG"] ; # 
   fhir:title [ fhir:v "Pasientens rekvisisjoner"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-20T12:42:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T12:57:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -415,6 +415,24 @@
        ] ;
        fhir:name [ fhir:v "PublicIdType_VS" ] ;
        fhir:description [ fhir:v "Id types used to identify patients" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid> ;
+         fhir:reference [ fhir:v "NamingSystem/RequesterDefinedUuid" ]
+       ] ;
+       fhir:name [ fhir:v "RequesterDefinedUuid" ] ;
+       fhir:description [ fhir:v "NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

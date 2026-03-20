@@ -11,7 +11,7 @@
   <name value="ParekIG"/>
   <title value="Pasientens rekvisisjoner"/>
   <status value="draft"/>
-  <date value="2026-03-20T12:42:40+00:00"/>
+  <date value="2026-03-20T12:57:31+00:00"/>
   <publisher value="Norsk helsenett - NHN"/>
   <contact>
     <name value="Norsk helsenett - NHN"/>
@@ -239,6 +239,17 @@
       </reference>
       <name value="PublicIdType_VS"/>
       <description value="Id types used to identify patients"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/RequesterDefinedUuid"/>
+      </reference>
+      <name value="RequesterDefinedUuid"/>
+      <description value="NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice."/>
       <isExample value="false"/>
     </resource>
     <resource>

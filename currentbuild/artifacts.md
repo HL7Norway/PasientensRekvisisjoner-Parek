@@ -48,6 +48,14 @@ These define new code systems used by systems conforming to this implementation 
 | [Person Id Type CS](CodeSystem-person-id-type-cs.md) | Id types used to identify persons involved, other than the patient. |
 | [Public Id Type CS](CodeSystem-public-id-type-cs.md) | Id types used to identify patients |
 
+### Terminology: Naming Systems 
+
+These define identifier and/or code system identities used by systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [RequesterDefinedUuid](NamingSystem-RequesterDefinedUuid.md) | NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice. |
+
 ### Example: Example Instances 
 
 These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.

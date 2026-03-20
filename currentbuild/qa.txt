@@ -1,15 +1,16 @@
 ParekIG : Validation Results
 =========================================
 
-err = 10, warn = 37, info = 32
+err = 10, warn = 37, info = 33
 IG Publisher Version: 2.2.1
-Generated Fri Mar 20 12:44:01 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.3 (canonical = http://hl7.no/fhir/ig/ParekIG)
+Generated Fri Mar 20 12:59:02 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.3 (canonical = http://hl7.no/fhir/ig/ParekIG)
  Build Errors : 6 / 5 / 0
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-organization-id-type-cs : 2 / 0 / 3
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-person-id-type-cs : 2 / 0 / 3
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-public-id-type-cs : 2 / 0 / 3
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/Device-ADevice : 0 / 1 / 1
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.ParekIG : 0 / 0 / 17
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/NamingSystem-RequesterDefinedUuid : 0 / 0 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/PractitionerRole-ACollector : 0 / 1 / 1
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/PractitionerRole-ARequester : 0 / 2 / 1
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ServiceRequest-ARequest : 0 / 4 / 2
@@ -71,6 +72,8 @@ INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.defini
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+== fsh-generated/resources/NamingSystem-RequesterDefinedUuid.json ==
+INFORMATION: NamingSystem/RequesterDefinedUuid: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 == fsh-generated/resources/PractitionerRole-ACollector.json ==
 WARNING: PractitionerRole/ACollector: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 == fsh-generated/resources/PractitionerRole-ARequester.json ==

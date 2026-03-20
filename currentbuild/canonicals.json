@@ -27,6 +27,13 @@
   "name" : "ParekIG"
 },
 {
+  "id" : "RequesterDefinedUuid",
+  "type" : "NamingSystem",
+  "url" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
+  "version" : "0.1.3",
+  "name" : "RequesterDefinedUuid"
+},
+{
   "id" : "parek-collector-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr",
