@@ -17,7 +17,7 @@ Id types used to identify patients
  This Code system is referenced in the content logical definition of the following value sets: 
 
 * [PersonIdType_VS](ValueSet-person-id-type-vs.md)
-* [PublicIdType_VS](ValueSet-public-it-type-vs.md)
+* [PublicIdType_VS](ValueSet-public-id-type-vs.md)
 
 
 
@@ -32,7 +32,7 @@ Id types used to identify patients
   "name" : "PublicIdType_CS",
   "title" : "Public Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-20T12:57:31+00:00",
+  "date" : "2026-03-20T13:17:08+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

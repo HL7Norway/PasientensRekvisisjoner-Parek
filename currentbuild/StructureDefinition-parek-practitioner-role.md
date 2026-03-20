@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
   "version" : "0.1.3",
   "name" : "ParekPractitionerRole",
   "status" : "draft",
-  "date" : "2026-03-20T12:57:31+00:00",
+  "date" : "2026-03-20T13:17:08+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -138,7 +138,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
       "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs"
+        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs"
       }
     },
     {

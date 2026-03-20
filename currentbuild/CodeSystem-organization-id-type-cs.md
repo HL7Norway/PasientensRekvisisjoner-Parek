@@ -16,7 +16,7 @@ Id types used to identify organizations.
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [OrganizationIdType_VS](ValueSet-organization-it-type-vs.md)
+* [OrganizationIdType_VS](ValueSet-organization-id-type-vs.md)
 
 
 
@@ -31,7 +31,7 @@ Id types used to identify organizations.
   "name" : "OrganizationIdType_CS",
   "title" : "Organization Id Type CS",
   "status" : "draft",
-  "date" : "2026-03-20T12:57:31+00:00",
+  "date" : "2026-03-20T13:17:08+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

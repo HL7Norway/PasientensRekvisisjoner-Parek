@@ -67,7 +67,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 400
+        'useMaxHeigth': 0
         },
     'theme': 'base'
     }
@@ -142,7 +142,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-20T12:57:31+00:00",
+  "date" : "2026-03-20T13:17:08+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -244,9 +244,9 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/organization-it-type-vs"
+        "reference" : "ValueSet/organization-id-type-vs"
       },
-      "name" : "Organization It Type VS",
+      "name" : "Organization Id Type VS",
       "description" : "Id types for organizations involved in DiagnosticReport/Observation",
       "isExample" : false
     },
@@ -388,9 +388,9 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/public-it-type-vs"
+        "reference" : "ValueSet/public-id-type-vs"
       },
-      "name" : "PublicIdType_VS",
+      "name" : "Public Id Type VS",
       "description" : "Id types used to identify patients",
       "isExample" : false
     },

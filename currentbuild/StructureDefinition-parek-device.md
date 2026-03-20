@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-device.csv), [
   "name" : "ParekDevice",
   "title" : "Parek Device",
   "status" : "draft",
-  "date" : "2026-03-20T12:57:31+00:00",
+  "date" : "2026-03-20T13:17:08+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

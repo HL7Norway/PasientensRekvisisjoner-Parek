@@ -11,7 +11,7 @@
   <name value="ParekIG"/>
   <title value="Pasientens rekvisisjoner"/>
   <status value="draft"/>
-  <date value="2026-03-20T12:57:31+00:00"/>
+  <date value="2026-03-20T13:17:08+00:00"/>
   <publisher value="Norsk helsenett - NHN"/>
   <contact>
     <name value="Norsk helsenett - NHN"/>
@@ -103,9 +103,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/organization-it-type-vs"/>
+        <reference value="ValueSet/organization-id-type-vs"/>
       </reference>
-      <name value="Organization It Type VS"/>
+      <name value="Organization Id Type VS"/>
       <description value="Id types for organizations involved in DiagnosticReport/Observation"/>
       <isExample value="false"/>
     </resource>
@@ -235,9 +235,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/public-it-type-vs"/>
+        <reference value="ValueSet/public-id-type-vs"/>
       </reference>
-      <name value="PublicIdType_VS"/>
+      <name value="Public Id Type VS"/>
       <description value="Id types used to identify patients"/>
       <isExample value="false"/>
     </resource>

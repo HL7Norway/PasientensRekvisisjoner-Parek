@@ -33,9 +33,9 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
-| [Organization It Type VS](ValueSet-organization-it-type-vs.md) | Id types for organizations involved in DiagnosticReport/Observation |
+| [Organization Id Type VS](ValueSet-organization-id-type-vs.md) | Id types for organizations involved in DiagnosticReport/Observation |
 | [Person Id Type VS](ValueSet-person-id-type-vs.md) | Id types used to identify persons involved, other than the patient. |
-| [PublicIdType_VS](ValueSet-public-it-type-vs.md) | Id types used to identify patients |
+| [Public Id Type VS](ValueSet-public-id-type-vs.md) | Id types used to identify patients |
 | [Specimen Type VS](ValueSet-specimen-type-vs.md) | Type og material in specimen. |
 
 ### Terminology: Code Systems 

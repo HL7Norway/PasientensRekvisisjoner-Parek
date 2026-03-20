@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.1.3"] ; # 
   fhir:name [ fhir:v "ParekRequester"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-20T12:57:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T13:17:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -1848,8 +1848,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs"^^xsd:anyURI ;
-           fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs>
+           fhir:v "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs"^^xsd:anyURI ;
+           fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs>
          ]
        ] ;
        fhir:mapping ( [

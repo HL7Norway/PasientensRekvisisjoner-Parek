@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ParekIG"] ; # 
   fhir:title [ fhir:v "Pasientens rekvisisjoner"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-20T12:57:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-20T13:17:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -188,10 +188,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs> ;
-         fhir:reference [ fhir:v "ValueSet/organization-it-type-vs" ]
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/organization-id-type-vs" ]
        ] ;
-       fhir:name [ fhir:v "Organization It Type VS" ] ;
+       fhir:name [ fhir:v "Organization Id Type VS" ] ;
        fhir:description [ fhir:v "Id types for organizations involved in DiagnosticReport/Observation" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
@@ -410,10 +410,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs> ;
-         fhir:reference [ fhir:v "ValueSet/public-it-type-vs" ]
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/public-id-type-vs" ]
        ] ;
-       fhir:name [ fhir:v "PublicIdType_VS" ] ;
+       fhir:name [ fhir:v "Public Id Type VS" ] ;
        fhir:description [ fhir:v "Id types used to identify patients" ] ;
        fhir:isExample [ fhir:v false ]
      ] [

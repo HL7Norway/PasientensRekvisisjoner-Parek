@@ -1,24 +1,24 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5d3bff74-ec19-45f1-bafa-4e75260d24ed",
+  "id" : "f2f79013-5afa-49b1-b217-a72f99f62c82",
   "meta" : {
-    "lastUpdated" : "2026-03-20T12:57:31.995+00:00"
+    "lastUpdated" : "2026-03-20T13:17:08.638+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs",
+    "fullUrl" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-organization-id-type-cs.html\">codesystem Organization Id Type CS v0.1.3 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs|0.1.3\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs-urn:oid:2.16.578.1.12.4.1.2\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-organization-id-type-cs.html#organization-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.462\">urn:oid:2.16.578.1.12.4.1.2</a></td><td/><td>HER-id</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.2&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.101\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-organization-id-type-cs.html#organization-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.46101\">urn:oid:2.16.578.1.12.4.1.4.101</a></td><td/><td>Enhetsregisteret - Brønnøysund</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.102\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-organization-id-type-cs.html#organization-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.46102\">urn:oid:2.16.578.1.12.4.1.4.102</a></td><td/><td>enheter i spesialisthelsetjenesten</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.107\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-organization-id-type-cs.html#organization-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.46107\">urn:oid:2.16.578.1.12.4.1.4.107</a></td><td/><td>Apotekenes konsesjonsnummer</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.107&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.107&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
-      "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-it-type-vs",
+      "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
       "version" : "0.1.3",
       "name" : "OrganizationIdType_VS",
-      "title" : "Organization It Type VS",
+      "title" : "Organization Id Type VS",
       "status" : "draft",
-      "date" : "2026-03-20T12:57:31+00:00",
+      "date" : "2026-03-20T13:17:08+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e8311fa5-66a8-4fc7-bbc6-a02d1db22f29",
-        "timestamp" : "2026-03-20T12:58:45+00:00",
+        "identifier" : "urn:uuid:e088f81e-9720-4ed5-a690-ce422988a2c4",
+        "timestamp" : "2026-03-20T13:18:08+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -83,7 +83,7 @@
       "name" : "PersonIdType_VS",
       "title" : "Person Id Type VS",
       "status" : "draft",
-      "date" : "2026-03-20T12:57:31+00:00",
+      "date" : "2026-03-20T13:17:08+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -92,8 +92,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bb293db4-9060-4cba-be40-e9fa1b445dbd",
-        "timestamp" : "2026-03-20T12:58:45+00:00",
+        "identifier" : "urn:uuid:3c8b0afc-c205-4bf3-acc0-ed5c0e57299a",
+        "timestamp" : "2026-03-20T13:18:08+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -148,19 +148,19 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs",
+    "fullUrl" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-public-id-type-cs.html\">codesystem Public Id Type CS v0.1.3 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs|0.1.3\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.1\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-public-id-type-cs.html#public-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td/><td>Fødselsnummer</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.2\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-public-id-type-cs.html#public-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td/><td>D-nummer</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs-urn:oid:2.16.578.1.12.4.1.4.3\"> </a><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-public-id-type-cs.html#public-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td/><td>Felles hjelpenummer</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.3&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.3&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
-      "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-it-type-vs",
+      "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
       "version" : "0.1.3",
       "name" : "PublicIdType_VS",
-      "title" : "PublicIdType_VS",
+      "title" : "Public Id Type VS",
       "status" : "draft",
-      "date" : "2026-03-20T12:57:31+00:00",
+      "date" : "2026-03-20T13:17:08+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -169,8 +169,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aa9c8c75-6adc-4175-8d06-cbf016443546",
-        "timestamp" : "2026-03-20T12:58:45+00:00",
+        "identifier" : "urn:uuid:a0a144df-627d-4a7a-a07b-5001a8700195",
+        "timestamp" : "2026-03-20T13:18:08+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

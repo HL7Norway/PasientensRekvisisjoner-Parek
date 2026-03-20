@@ -21,9 +21,9 @@ Generated $--. FHIR version $-- for hl7.fhir.no.ParekIG#$-- (canonical = http://
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-requester-pr : 0 / 3 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-service-request : 0 / 4 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-specimen : 0 / 1 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-organization-it-type-vs : 1 / 0 / 2
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-organization-id-type-vs : 1 / 0 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-person-id-type-vs : 1 / 0 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-public-it-type-vs : 1 / 0 / 2
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-public-id-type-vs : 1 / 0 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-specimen-type-vs : 1 / 4 / 2
 </table>
 == n/a ==
@@ -117,15 +117,15 @@ WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot
 == fsh-generated/resources/StructureDefinition-parek-specimen.json ==
 INFORMATION: StructureDefinition/parek-specimen: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-specimen: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Specimen.subject.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
-== fsh-generated/resources/ValueSet-organization-it-type-vs.json ==
-INFORMATION: ValueSet/organization-it-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-ERROR: ValueSet/organization-it-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-organization-id-type-vs.json ==
+INFORMATION: ValueSet/organization-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/organization-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-person-id-type-vs.json ==
 INFORMATION: ValueSet/person-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: ValueSet/person-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-public-it-type-vs.json ==
-INFORMATION: ValueSet/public-it-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-ERROR: ValueSet/public-it-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-public-id-type-vs.json ==
+INFORMATION: ValueSet/public-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/public-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-specimen-type-vs.json ==
 INFORMATION: ValueSet/specimen-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: ValueSet/specimen-type-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212'

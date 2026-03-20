@@ -15,9 +15,9 @@
 
 ### ValueSets
 
-* [Organization It Type VS](ValueSet-organization-it-type-vs.md)
+* [Organization Id Type VS](ValueSet-organization-id-type-vs.md)
 * [Person Id Type VS](ValueSet-person-id-type-vs.md)
-* [PublicIdType_VS](ValueSet-public-it-type-vs.md)
+* [Public Id Type VS](ValueSet-public-id-type-vs.md)
 * [Specimen Type VS](ValueSet-specimen-type-vs.md)
 
 ### Resource Profiles
