@@ -15,7 +15,7 @@ title: Original/normal requisition flow
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeight': 0
+        'useMaxHeight': false
         },
     'theme': 'base'
     }
@@ -58,8 +58,8 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeight': 0,
-        'height':1000px
+        'useMaxHeight': false,
+        'height':100
         },
     'theme': 'base'
     }
