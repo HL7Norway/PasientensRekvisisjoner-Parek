@@ -6,6 +6,12 @@ Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekni
 ---
 title: Original/normal requisition flow
 ---
+%%{init: {
+    'sequence': {
+        'mirrorActors':false
+        }
+    }
+}%%
 sequenceDiagram
     actor Requester
     actor Patient
@@ -41,6 +47,12 @@ Første fase av prosjektet handler primært om andre kulepunkt. Selv om det i pr
 ---
 title: Requisition flow with Parek
 ---
+%%{init: {
+    'sequence': {
+        'mirrorActors':false
+        }
+    }
+}%%
 sequenceDiagram
     actor Requester
     actor Parek
