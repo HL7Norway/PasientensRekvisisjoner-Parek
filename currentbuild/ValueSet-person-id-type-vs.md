@@ -50,7 +50,7 @@ Id types used to identify persons involved, other than the patient.
   "name" : "PersonIdType_VS",
   "title" : "Person Id Type VS",
   "status" : "draft",
-  "date" : "2026-04-10T12:51:31+00:00",
+  "date" : "2026-04-10T13:11:24+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

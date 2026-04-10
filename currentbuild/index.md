@@ -58,47 +58,7 @@ Prosjekt "**Pasientens rekvisisjoner**" (**Parek**) er etablert for å løse dis
 
 Første fase av prosjektet handler primært om andre kulepunkt. Selv om det i prinsippet ikke er noe som hindrer at også første kulepunkt dekkes så vil det være begrensninger (f.eks. bruk av lokale kodeverk) i selve datainnholdet som i praksis utelukker at prøver kan tas eller analyseres andre steder enn de forhåndsvalgte. Dette er en flyt som allerede brukes en god del, men den er "manuell" har svakheter som gjerne bunner i at pasient møter opp som avtalt til oppfølging, men har glemt å ta de prøvene som skulle tas. Prosjektet tar sikte på å forvalte orkestreringen av aktørene for at denne flyten skal fungere mer optimalt.
 
-```
----
-title: Requisition flow with Parek
----
-%%{init: {
-    'sequence': {
-        'mirrorActors':false
-        }
-    }
-}%%
-sequenceDiagram
-    actor Requester
-    actor Parek
-    actor Patient
-    actor Sampler
-    actor Laboratory
-
-    rect rgb(100, 190, 255)
-        Requester->>Parek: Requisition
-        Note over Parek: Wait until samples are due
-        activate Parek
-        Parek-)Patient: Reminder
-        activate Patient
-        Patient->>Sampler: Visits sampler
-        activate Sampler
-        loop
-            Sampler->Sampler: Collect sample
-            Sampler->>Parek: Record samples
-        end
-        deactivate Patient
-        Sampler->>Laboratory: Samples
-        deactivate Sampler
-        Parek-->>Requester: All samples collected
-        deactivate Parek
-    end
-    Requester->>Laboratory: Final requisition
-    activate Laboratory
-    Laboratory-->>Requester: Results
-    deactivate Laboratory
-
-```
+```mermaid --- title: Requisition flow with Parek --- %%{init: { 'sequence': { 'mirrorActors':false } } }%% sequenceDiagram actor Requester actor Parek actor Patient actor Sampler actor Laboratory rect rgb(100, 190, 255) Requester->>Parek: Requisition Note over Parek: Wait until samples are due activate Parek Parek-)Patient: Reminder activate Patient Patient->>Sampler: Visits sampler activate Sampler loop Sampler->Sampler: Collect sample Sampler->>Parek: Record samples end deactivate Patient Sampler->>Laboratory: Samples deactivate Sampler Parek-->>Requester: All samples collected deactivate Parek end Requester->>Laboratory: Final requisition activate Laboratory Laboratory-->>Requester: Results deactivate Laboratory ```
 
 I denne figuren er den del av orkestreringen som Parek tar hånd om markert med blå bakgrunn. Nederst er resten av den manuelle flyten som forvaltes av rekvirenten selv, nå i forvisning om at ting er på plass og har skjedd som de skal.
 
@@ -138,7 +98,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-10T12:51:31+00:00",
+  "date" : "2026-04-10T13:11:24+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
