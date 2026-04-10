@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "hl7.fhir.no.ParekIG",
   "ig-ver" : "0.1.4",
-  "date" : "Fri, 10 Apr, 2026 11:43:13 +0000",
-  "dateISO8601" : "2026-04-10T11:43:13+00:00",
+  "date" : "Fri, 10 Apr, 2026 11:51:44 +0000",
+  "dateISO8601" : "2026-04-10T11:51:44+00:00",
   "errs" : 11,
   "warnings" : 36,
   "hints" : 48,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "5.0.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1266366272
+  "maxMemory" : 1241513984
 }
