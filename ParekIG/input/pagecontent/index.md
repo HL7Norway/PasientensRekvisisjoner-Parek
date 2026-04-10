@@ -61,7 +61,7 @@ title: Requisition flow with Parek
         'mirrorActors':false,
         'useMaxHeight': false
         },
-    'theme': 'base'
+    'theme': 'forest'
     }
 }%%
 sequenceDiagram
