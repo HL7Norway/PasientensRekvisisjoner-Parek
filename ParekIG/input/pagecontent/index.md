@@ -2,6 +2,7 @@ html
 <style>
   svg { height: auto !important; }
   .figure { height: auto !important; }
+  .mermaid { height: auto !important; }
 </style>
 
 ### Introduksjon
@@ -58,8 +59,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeight': false,
-        'height':100
+        'useMaxHeight': false
         },
     'theme': 'base'
     }
