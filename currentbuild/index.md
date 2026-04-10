@@ -1,4 +1,4 @@
-# Home - Pasientens rekvisisjoner v0.1.3
+# Home - Pasientens rekvisisjoner v0.1.4
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,10 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.3 |
-| Draft as of 2026-03-20 | *Computable Name*:ParekIG |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.4 |
+| Draft as of 2026-04-10 | *Computable Name*:ParekIG |
+
+html
 
 ### Introduksjon
 
@@ -21,7 +23,7 @@ title: Original/normal requisition flow
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 0
+        'useMaxHeight': 0
         },
     'theme': 'base'
     }
@@ -67,7 +69,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 0
+        'useMaxHeight': 0
         },
     'theme': 'base'
     }
@@ -138,11 +140,11 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.ParekIG",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-03-20T13:17:08+00:00",
+  "date" : "2026-04-10T11:25:48+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -185,7 +187,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "definition" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r5#1.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r5#1.1.2"
     }],
     "resource" : [{
       "extension" : [{

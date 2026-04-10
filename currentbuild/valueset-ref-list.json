@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "draft",
     "name" : "OrganizationIdType_VS",
     "title" : "Organization Id Type VS",
@@ -13,7 +13,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "draft",
     "name" : "PersonIdType_VS",
     "title" : "Person Id Type VS",
@@ -26,7 +26,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "draft",
     "name" : "PublicIdType_VS",
     "title" : "Public Id Type VS",
@@ -39,7 +39,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "draft",
     "name" : "SpecimenType_VS",
     "title" : "Specimen Type VS",

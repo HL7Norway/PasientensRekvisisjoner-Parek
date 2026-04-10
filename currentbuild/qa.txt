@@ -1,54 +1,57 @@
 ParekIG : Validation Results
 =========================================
 
-err = 10, warn = 37, info = 33
-IG Publisher Version: 2.2.1
-Generated Fri Mar 20 13:18:24 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.3 (canonical = http://hl7.no/fhir/ig/ParekIG)
+err = 11, warn = 36, info = 48
+IG Publisher Version: 2.2.5
+Generated Fri Apr 10 11:27:13 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.4 (canonical = http://hl7.no/fhir/ig/ParekIG)
  Build Errors : 6 / 5 / 0
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-organization-id-type-cs : 2 / 0 / 3
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-person-id-type-cs : 2 / 0 / 3
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-public-id-type-cs : 2 / 0 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-organization-id-type-cs : 2 / 0 / 4
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-person-id-type-cs : 2 / 0 / 4
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-public-id-type-cs : 2 / 0 / 4
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/Device-ADevice : 0 / 1 / 1
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.ParekIG : 0 / 0 / 17
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/NamingSystem-RequesterDefinedUuid : 0 / 0 / 2
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.ParekIG : 0 / 0 / 18
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/NamingSystem-RequesterDefinedUuid : 0 / 0 / 3
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/PractitionerRole-ACollector : 0 / 1 / 1
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/PractitionerRole-ARequester : 0 / 2 / 1
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ServiceRequest-ARequest : 0 / 4 / 2
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ServiceRequest-ARequest : 1 / 3 / 2
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/Specimen-ASpecimen : 0 / 5 / 3
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-collector-pr : 0 / 3 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-device : 0 / 1 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-practitioner-role : 0 / 3 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-requester-pr : 0 / 3 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-service-request : 0 / 4 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-specimen : 0 / 1 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-organization-id-type-vs : 1 / 0 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-person-id-type-vs : 1 / 0 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-public-id-type-vs : 1 / 0 / 2
- /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-specimen-type-vs : 1 / 4 / 2
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-collector-pr : 0 / 3 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-device : 0 / 1 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-practitioner-role : 0 / 3 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-requester-pr : 0 / 3 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-service-request : 0 / 4 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/StructureDefinition-parek-specimen : 0 / 1 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-organization-id-type-vs : 1 / 0 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-person-id-type-vs : 1 / 0 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-public-id-type-vs : 1 / 0 / 3
+ /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/ValueSet-specimen-type-vs : 1 / 4 / 3
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/parek-collector-pr.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/parek-requester-pr.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: StructureDefinition-parek-service-request-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 310, column 1298: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: StructureDefinition-parek-service-request-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 562, column 1040: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 385, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1072, column 1219: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2037, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2723, column 1219: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 320, column 1298: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 587, column 1040: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 395, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1102, column 1219: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2089, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: StructureDefinition-parek-service-request.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2795, column 1219: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-organization-id-type-cs.json ==
+INFORMATION: CodeSystem/organization-id-type-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: CodeSystem/organization-id-type-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: CodeSystem/organization-id-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 ERROR: CodeSystem/organization-id-type-cs: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 ERROR: CodeSystem/organization-id-type-cs: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-person-id-type-cs.json ==
+INFORMATION: CodeSystem/person-id-type-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: CodeSystem/person-id-type-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: CodeSystem/person-id-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 ERROR: CodeSystem/person-id-type-cs: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 ERROR: CodeSystem/person-id-type-cs: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-public-id-type-cs.json ==
+INFORMATION: CodeSystem/public-id-type-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: CodeSystem/public-id-type-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: CodeSystem/public-id-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 ERROR: CodeSystem/public-id-type-cs: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -56,6 +59,7 @@ ERROR: CodeSystem/public-id-type-cs: CodeSystem: Code systems published by HL7 S
 == fsh-generated/resources/Device-ADevice.json ==
 WARNING: Device/ADevice: Device.identifier[0].system: No definition could be found for URL value 'http://some.thing.unique'
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.ParekIG.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[4].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
@@ -73,6 +77,7 @@ INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.defini
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.no.ParekIG: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 == fsh-generated/resources/NamingSystem-RequesterDefinedUuid.json ==
+INFORMATION: NamingSystem/RequesterDefinedUuid: NamingSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: NamingSystem/RequesterDefinedUuid: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 == fsh-generated/resources/PractitionerRole-ACollector.json ==
 WARNING: PractitionerRole/ACollector: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
@@ -80,9 +85,9 @@ WARNING: PractitionerRole/ACollector: PractitionerRole.practitioner.identifier.s
 WARNING: PractitionerRole/ARequester: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: PractitionerRole/ARequester: PractitionerRole.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 == fsh-generated/resources/ServiceRequest-ARequest.json ==
+ERROR: ServiceRequest/ARequest: ServiceRequest.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice ServiceRequest.identifier:LocalId in profile http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request|0.1.4 - the discriminator [system] does not have fixed value, binding or existence assertions
 WARNING: ServiceRequest/ARequest: ServiceRequest.contained[0]/*PractitionerRole/ARequester*/.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: ServiceRequest/ARequest: ServiceRequest.contained[0]/*PractitionerRole/ARequester*/.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
-WARNING: ServiceRequest/ARequest: ServiceRequest.identifier[0].system: No definition could be found for URL value 'http://some.thing.unique'
 WARNING: ServiceRequest/ARequest: ServiceRequest.subject.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/Specimen-ASpecimen.json ==
 WARNING: Specimen/ASpecimen: Specimen.contained[0]/*PractitionerRole/ACollector*/.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
@@ -91,42 +96,52 @@ WARNING: Specimen/ASpecimen: Specimen.identifier[0].system: No definition could 
 WARNING: Specimen/ASpecimen: Specimen.type.coding[0].system: A definition for CodeSystem 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351' could not be found, so the code cannot be validated
 WARNING: Specimen/ASpecimen: Specimen.subject.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/StructureDefinition-parek-collector-pr.json ==
+INFORMATION: StructureDefinition/parek-collector-pr: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-collector-pr: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-collector-pr: StructureDefinition.snapshot.element[16].binding: The definition for the element 'PractitionerRole.practitioner.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-collector-pr: StructureDefinition.snapshot.element[31].binding: The definition for the element 'PractitionerRole.organization.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-collector-pr: StructureDefinition.snapshot.element[43].binding: The definition for the element 'PractitionerRole.specialty' binds to the value set 'http://hl7.org/fhir/ValueSet/c80-practice-codes|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-parek-device.json ==
+INFORMATION: StructureDefinition/parek-device: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-device: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-device: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-parek-practitioner-role.json ==
+INFORMATION: StructureDefinition/parek-practitioner-role: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-practitioner-role: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-practitioner-role: StructureDefinition.snapshot.element[16].binding: The definition for the element 'PractitionerRole.practitioner.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-practitioner-role: StructureDefinition.snapshot.element[31].binding: The definition for the element 'PractitionerRole.organization.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-practitioner-role: StructureDefinition.snapshot.element[43].binding: The definition for the element 'PractitionerRole.specialty' binds to the value set 'http://hl7.org/fhir/ValueSet/c80-practice-codes|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-parek-requester-pr.json ==
+INFORMATION: StructureDefinition/parek-requester-pr: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-requester-pr: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-requester-pr: StructureDefinition.snapshot.element[16].binding: The definition for the element 'PractitionerRole.practitioner.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-requester-pr: StructureDefinition.snapshot.element[31].binding: The definition for the element 'PractitionerRole.organization.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/parek-requester-pr: StructureDefinition.snapshot.element[43].binding: The definition for the element 'PractitionerRole.specialty' binds to the value set 'http://hl7.org/fhir/ValueSet/c80-practice-codes|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-parek-service-request.json ==
+INFORMATION: StructureDefinition/parek-service-request: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-service-request: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[23].binding: The definition for the element 'ServiceRequest.status' binds to the value set 'http://hl7.org/fhir/ValueSet/request-status|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[24].binding: The definition for the element 'ServiceRequest.intent' binds to the value set 'http://hl7.org/fhir/ValueSet/request-intent|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[26].binding: The definition for the element 'ServiceRequest.priority' binds to the value set 'http://hl7.org/fhir/ValueSet/request-priority|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[49].binding: The definition for the element 'ServiceRequest.subject.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[25].binding: The definition for the element 'ServiceRequest.status' binds to the value set 'http://hl7.org/fhir/ValueSet/request-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[26].binding: The definition for the element 'ServiceRequest.intent' binds to the value set 'http://hl7.org/fhir/ValueSet/request-intent|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[28].binding: The definition for the element 'ServiceRequest.priority' binds to the value set 'http://hl7.org/fhir/ValueSet/request-priority|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/parek-service-request: StructureDefinition.snapshot.element[51].binding: The definition for the element 'ServiceRequest.subject.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-parek-specimen.json ==
+INFORMATION: StructureDefinition/parek-specimen: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: StructureDefinition/parek-specimen: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/parek-specimen: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Specimen.subject.type' binds to the value set 'http://hl7.org/fhir/ValueSet/resource-types|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/ValueSet-organization-id-type-vs.json ==
+INFORMATION: ValueSet/organization-id-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: ValueSet/organization-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: ValueSet/organization-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-person-id-type-vs.json ==
+INFORMATION: ValueSet/person-id-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: ValueSet/person-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: ValueSet/person-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-public-id-type-vs.json ==
+INFORMATION: ValueSet/public-id-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: ValueSet/public-id-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: ValueSet/public-id-type-vs: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-specimen-type-vs.json ==
+INFORMATION: ValueSet/specimen-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
 INFORMATION: ValueSet/specimen-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: ValueSet/specimen-type-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212'
 WARNING: ValueSet/specimen-type-vs: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216'

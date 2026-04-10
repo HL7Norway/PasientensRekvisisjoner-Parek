@@ -55,8 +55,8 @@
   ] ) ; # 
   fhir:identifier ( [
      fhir:system [
-       fhir:v "http://some.thing.unique"^^xsd:anyURI ;
-       fhir:l <http://some.thing.unique>
+       fhir:v "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid>
      ] ;
      fhir:value [ fhir:v "45678" ]
   ] ) ; # 

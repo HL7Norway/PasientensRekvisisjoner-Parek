@@ -14,7 +14,6 @@
     <sch:rule context="f:ServiceRequest">
       <sch:assert test="count(f:contained) &gt;= 1">contained: minimum cardinality of 'contained' is 1</sch:assert>
       <sch:assert test="count(f:contained) &lt;= 1">contained: maximum cardinality of 'contained' is 1</sch:assert>
-      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:orderDetail) &gt;= 1">orderDetail: minimum cardinality of 'orderDetail' is 1</sch:assert>
       <sch:assert test="count(f:occurrence[x]) &gt;= 1">occurrence[x]: minimum cardinality of 'occurrence[x]' is 1</sch:assert>
       <sch:assert test="count(f:authoredOn) &gt;= 1">authoredOn: minimum cardinality of 'authoredOn' is 1</sch:assert>

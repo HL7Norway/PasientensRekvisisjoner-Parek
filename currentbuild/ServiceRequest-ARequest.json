@@ -34,7 +34,7 @@
     }
   }],
   "identifier" : [{
-    "system" : "http://some.thing.unique",
+    "system" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
     "value" : "45678"
   }],
   "status" : "active",

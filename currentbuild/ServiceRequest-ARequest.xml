@@ -34,7 +34,7 @@
     </PractitionerRole>
   </contained>
   <identifier>
-    <system value="http://some.thing.unique"/>
+    <system value="http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"/>
     <value value="45678"/>
   </identifier>
   <status value="active"/>

@@ -2,104 +2,104 @@
   "id" : "organization-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "OrganizationIdType_CS"
 },
 {
   "id" : "person-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "PersonIdType_CS"
 },
 {
   "id" : "public-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "PublicIdType_CS"
 },
 {
   "id" : "hl7.fhir.no.ParekIG",
   "type" : "ImplementationGuide",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekIG"
 },
 {
   "id" : "RequesterDefinedUuid",
   "type" : "NamingSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "RequesterDefinedUuid"
 },
 {
   "id" : "parek-collector-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekCollector"
 },
 {
   "id" : "parek-device",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekDevice"
 },
 {
   "id" : "parek-practitioner-role",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekPractitionerRole"
 },
 {
   "id" : "parek-requester-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekRequester"
 },
 {
   "id" : "parek-service-request",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekServiceRequest"
 },
 {
   "id" : "parek-specimen",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekSpecimen"
 },
 {
   "id" : "organization-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "OrganizationIdType_VS"
 },
 {
   "id" : "person-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "PersonIdType_VS"
 },
 {
   "id" : "public-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "PublicIdType_VS"
 },
 {
   "id" : "specimen-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "SpecimenType_VS"
 }]

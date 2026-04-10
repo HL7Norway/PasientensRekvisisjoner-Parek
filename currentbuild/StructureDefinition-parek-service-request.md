@@ -1,4 +1,4 @@
-# ParekServiceRequest - Pasientens rekvisisjoner v0.1.3
+# ParekServiceRequest - Pasientens rekvisisjoner v0.1.4
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request | *Version*:0.1.3 |
-| Draft as of 2026-03-20 | *Computable Name*:ParekServiceRequest |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request | *Version*:0.1.4 |
+| Draft as of 2026-04-10 | *Computable Name*:ParekServiceRequest |
 
  
 ServiceRecuest as used in Parek. 
@@ -37,10 +37,10 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
   "resourceType" : "StructureDefinition",
   "id" : "parek-service-request",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "ParekServiceRequest",
   "status" : "draft",
-  "date" : "2026-03-20T13:17:08+00:00",
+  "date" : "2026-04-10T11:25:48+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -106,18 +106,42 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
     {
       "id" : "ServiceRequest.identifier",
       "path" : "ServiceRequest.identifier",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "system"
+        }],
+        "rules" : "open"
+      },
       "definition" : "External identifiers of the request. Generally not global, may be internal to a specific requester/system.",
       "min" : 1
     },
     {
-      "id" : "ServiceRequest.identifier.system",
+      "id" : "ServiceRequest.identifier:RequesterDefinedUuid",
+      "path" : "ServiceRequest.identifier",
+      "sliceName" : "RequesterDefinedUuid",
+      "definition" : "External system creating a ServiceRequst must provide a unique identifier for idem potency (to avoid duplicates).",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "ServiceRequest.identifier:RequesterDefinedUuid.system",
       "path" : "ServiceRequest.identifier.system",
+      "min" : 1,
+      "patternUri" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"
+    },
+    {
+      "id" : "ServiceRequest.identifier:RequesterDefinedUuid.value",
+      "path" : "ServiceRequest.identifier.value",
       "min" : 1
     },
     {
-      "id" : "ServiceRequest.identifier.value",
-      "path" : "ServiceRequest.identifier.value",
-      "min" : 1
+      "id" : "ServiceRequest.identifier:LocalId",
+      "path" : "ServiceRequest.identifier",
+      "sliceName" : "LocalId",
+      "min" : 0,
+      "max" : "*",
+      "mustSupport" : true
     },
     {
       "id" : "ServiceRequest.code",

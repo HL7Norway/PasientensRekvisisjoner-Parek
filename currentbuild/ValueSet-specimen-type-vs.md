@@ -1,4 +1,4 @@
-# Specimen Type VS - Pasientens rekvisisjoner v0.1.3
+# Specimen Type VS - Pasientens rekvisisjoner v0.1.4
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,15 +8,14 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs | *Version*:0.1.3 |
-| Draft as of 2026-03-20 | *Computable Name*:SpecimenType_VS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs | *Version*:0.1.4 |
+| Draft as of 2026-04-10 | *Computable Name*:SpecimenType_VS |
 
  
 Type og material in specimen. 
 
  **References** 
 
-* [ParekSpecimen](StructureDefinition-parek-specimen.md)
 * [ParekSpecimen](StructureDefinition-parek-specimen.md)
 
 ### Logical Definition (CLD)
@@ -49,11 +48,11 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "specimen-type-vs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "SpecimenType_VS",
   "title" : "Specimen Type VS",
   "status" : "draft",
-  "date" : "2026-03-20T13:17:08+00:00",
+  "date" : "2026-04-10T11:25:48+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
