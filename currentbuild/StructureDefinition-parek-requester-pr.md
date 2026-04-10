@@ -39,7 +39,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-requester-pr.c
   "version" : "0.1.4",
   "name" : "ParekRequester",
   "status" : "draft",
-  "date" : "2026-04-10T12:17:42+00:00",
+  "date" : "2026-04-10T12:43:41+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

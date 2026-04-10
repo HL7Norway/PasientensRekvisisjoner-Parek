@@ -10,8 +10,6 @@
 | *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.4 |
 | Draft as of 2026-04-10 | *Computable Name*:ParekIG |
 
-html
-
 ### Introduksjon
 
 Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekning i tid og rom. Innenfor denne konteksten kan det tas prøver eller bilder og analyseresultater blir tilgjengelige for legen. Konteksten kan være en innleggelse, en avtale eller avtale med oppfølgingsavtale innenfor få dager. Kommunikasjon er typisk elektronisk, men kan også bestå i at pasient får med seg et ark med informasjon om hvilke prøver som skal tas.
@@ -20,14 +18,6 @@ Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekni
 ---
 title: Original/normal requisition flow
 ---
-%%{init: {
-    'sequence': {
-        'mirrorActors':false,
-        'useMaxHeight': false
-        },
-    'theme': 'base'
-    }
-}%%
 sequenceDiagram
     actor Requester
     actor Patient
@@ -66,14 +56,6 @@ Første fase av prosjektet handler primært om andre kulepunkt. Selv om det i pr
 ---
 title: Requisition flow with Parek
 ---
-%%{init: {
-    'sequence': {
-        'mirrorActors':false,
-        'useMaxHeight': false
-        },
-    'theme': 'forest'
-    }
-}%%
 sequenceDiagram
     actor Requester
     actor Parek
@@ -144,7 +126,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-10T12:17:42+00:00",
+  "date" : "2026-04-10T12:43:41+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
