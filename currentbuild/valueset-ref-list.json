@@ -34,8 +34,8 @@
     "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest"
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen"
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
