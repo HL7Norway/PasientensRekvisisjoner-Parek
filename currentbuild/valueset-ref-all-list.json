@@ -38,8 +38,8 @@
     "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest"
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen"
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
@@ -68,10 +68,10 @@
     "uses" : {
     },
     "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-device.html" : "Parek Device",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
@@ -90,8 +90,8 @@
     "2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest"
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -286,10 +286,10 @@
     "uses" : {
     },
     "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-device.html" : "Parek Device",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
@@ -305,10 +305,10 @@
     "uses" : {
     },
     "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-device.html" : "Parek Device",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
@@ -326,10 +326,10 @@
     "uses" : {
     },
     "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
-    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
-    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
+    "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-device.html" : "Parek Device",
+    "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
@@ -476,9 +476,9 @@
     "uses" : {
     },
     "StructureDefinition-parek-collector-pr.html" : "ParekCollector",
+    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
     "StructureDefinition-parek-requester-pr.html" : "ParekRequester",
     "StructureDefinition-parek-specimen.html" : "ParekSpecimen",
-    "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
