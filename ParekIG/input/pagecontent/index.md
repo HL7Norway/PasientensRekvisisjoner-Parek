@@ -7,6 +7,7 @@ html
 ### Introduksjon
 
 Interaksjon mellom lege og pasient skjer typisk i en kontekst med kort utstrekning i tid og rom. Innenfor denne konteksten kan det tas prøver eller bilder og analyseresultater blir tilgjengelige for legen. Konteksten kan være en innleggelse, en avtale eller avtale med oppfølgingsavtale innenfor få dager. Kommunikasjon er typisk elektronisk, men kan også bestå i at pasient får med seg et ark med informasjon om hvilke prøver som skal tas.
+
 ```mermaid
 ---
 title: Original/normal requisition flow
@@ -14,7 +15,7 @@ title: Original/normal requisition flow
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 0
+        'useMaxHeight': 0
         },
     'theme': 'base'
     }
@@ -38,6 +39,7 @@ sequenceDiagram
 ```
 
 Det er to forhold som utfordrer denne lukkede konteksten
+
 - Behov for å frikoble prøvetaking og analysearbeid fra rekvirent
   - Pasienten kan møte opp hvor som helst og få tatt prøvene og de kan sendes til et hvilket som helt laboratorim for analyser.
   - "Frikobling i rom".
@@ -56,7 +58,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeigth': 0
+        'useMaxHeight': 0
         },
     'theme': 'base'
     }
@@ -97,6 +99,7 @@ I denne figuren er den del av orkestreringen som Parek tar hånd om markert med 
 ### Implementasjonsguiden
 
 Denne implementasjonsguiden definerer de ressursene som inngår i den flyten av data som forvaltes av Parek.
+
 ```mermaid
 ---
 title: FHIR resources in Parek
@@ -110,6 +113,7 @@ classDiagram
     Specimen : +List(Device) device
     Specimen : +List(resource) contained
 ```
+
 Siden Parek ikke er, eller har tilgang til, førstehåndsinformasjon om helsepersonell vil alle PractitionerRole-instanser være contained i den aktuelle ressurs. Det samme gjelder Device som kun eksisterer i kontekst av prøven de inneholder.
 
 ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refereranse til ServiceRequest. Parek bruker denne informasjonen til å finne ut om alle forventede prøver er tatt og endrer status fra "active" til "completed".
