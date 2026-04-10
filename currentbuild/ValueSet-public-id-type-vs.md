@@ -51,7 +51,7 @@ Id types used to identify patients
   "name" : "PublicIdType_VS",
   "title" : "Public Id Type VS",
   "status" : "draft",
-  "date" : "2026-04-10T12:43:41+00:00",
+  "date" : "2026-04-10T12:51:31+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

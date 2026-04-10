@@ -30,8 +30,8 @@
     "description" : "Id types used to identify patients",
     "uses" : {
     },
-    "ValueSet-public-id-type-vs.html" : "Public Id Type VS",
-    "ValueSet-person-id-type-vs.html" : "Person Id Type VS"
+    "ValueSet-person-id-type-vs.html" : "Person Id Type VS",
+    "ValueSet-public-id-type-vs.html" : "Public Id Type VS"
   },
   {
     "url" : "http://hl7.org/fhir/device-availability-status",
