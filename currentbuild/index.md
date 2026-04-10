@@ -69,8 +69,7 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeight': false,
-        'height':100
+        'useMaxHeight': false
         },
     'theme': 'base'
     }
@@ -145,7 +144,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-10T11:51:44+00:00",
+  "date" : "2026-04-10T12:03:27+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

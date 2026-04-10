@@ -3,7 +3,7 @@ ParekIG : Validation Results
 
 err = 11, warn = 36, info = 48
 IG Publisher Version: 2.2.5
-Generated Fri Apr 10 11:52:55 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.4 (canonical = http://hl7.no/fhir/ig/ParekIG)
+Generated Fri Apr 10 12:04:54 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.4 (canonical = http://hl7.no/fhir/ig/ParekIG)
  Build Errors : 6 / 5 / 0
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-organization-id-type-cs : 2 / 0 / 4
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-person-id-type-cs : 2 / 0 / 4
