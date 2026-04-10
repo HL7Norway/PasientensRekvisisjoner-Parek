@@ -1,6 +1,6 @@
 html
 <style>
-  svg { height: auto !important; overflow: visible !important; }
+  svg { height: auto !important; }
   .figure { height: auto !important; }
 </style>
 
@@ -58,7 +58,8 @@ title: Requisition flow with Parek
 %%{init: {
     'sequence': {
         'mirrorActors':false,
-        'useMaxHeight': 0
+        'useMaxHeight': 0,
+        'height':1000px
         },
     'theme': 'base'
     }
