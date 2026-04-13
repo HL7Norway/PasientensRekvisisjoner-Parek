@@ -114,3 +114,7 @@ classDiagram
 Siden Parek ikke er, eller har tilgang til, førstehåndsinformasjon om helsepersonell vil alle PractitionerRole-instanser være contained i den aktuelle ressurs. Det samme gjelder Device som kun eksisterer i kontekst av prøven de inneholder.
 
 ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refereranse til ServiceRequest. Parek bruker denne informasjonen til å finne ut om alle forventede prøver er tatt og endrer status fra "active" til "completed".
+
+### Utviklerportalen
+
+[Utviklerportalen](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-rekvisisjoner) inneholder teknisk informasjon for utviklere og andre som ønsker å ta tjenesten i bruk. 
