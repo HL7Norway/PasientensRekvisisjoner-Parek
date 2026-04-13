@@ -1,4 +1,4 @@
-# ParekSpecimen - Pasientens rekvisisjoner v0.1.4
+# ParekSpecimen - Pasientens rekvisisjoner v0.1.5
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen | *Version*:0.1.4 |
-| Draft as of 2026-04-10 | *Computable Name*:ParekSpecimen |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen | *Version*:0.1.5 |
+| Draft as of 2026-04-13 | *Computable Name*:ParekSpecimen |
 
  
 Specimen as used in Parek. 
@@ -37,10 +37,10 @@ Other representations of profile: [CSV](StructureDefinition-parek-specimen.csv),
   "resourceType" : "StructureDefinition",
   "id" : "parek-specimen",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen",
-  "version" : "0.1.4",
+  "version" : "0.1.5",
   "name" : "ParekSpecimen",
   "status" : "draft",
-  "date" : "2026-04-10T13:11:24+00:00",
+  "date" : "2026-04-13T12:24:04+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

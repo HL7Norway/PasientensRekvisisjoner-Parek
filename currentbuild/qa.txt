@@ -2,8 +2,8 @@ ParekIG : Validation Results
 =========================================
 
 err = 11, warn = 36, info = 48
-IG Publisher Version: 2.2.5
-Generated Fri Apr 10 13:12:43 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.4 (canonical = http://hl7.no/fhir/ig/ParekIG)
+IG Publisher Version: 2.2.6
+Generated Mon Apr 13 12:25:16 UTC 2026. FHIR version 5.0.0 for hl7.fhir.no.ParekIG#0.1.5 (canonical = http://hl7.no/fhir/ig/ParekIG)
  Build Errors : 6 / 5 / 0
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-organization-id-type-cs : 2 / 0 / 4
  /__w/PasientensRekvisisjoner-Parek/PasientensRekvisisjoner-Parek/ParekIG/fsh-generated/resources/CodeSystem-person-id-type-cs : 2 / 0 / 4
@@ -85,7 +85,7 @@ WARNING: PractitionerRole/ACollector: PractitionerRole.practitioner.identifier.s
 WARNING: PractitionerRole/ARequester: PractitionerRole.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: PractitionerRole/ARequester: PractitionerRole.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 == fsh-generated/resources/ServiceRequest-ARequest.json ==
-ERROR: ServiceRequest/ARequest: ServiceRequest.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice ServiceRequest.identifier:LocalId in profile http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request|0.1.4 - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: ServiceRequest/ARequest: ServiceRequest.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice ServiceRequest.identifier:LocalId in profile http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request|0.1.5 - the discriminator [system] does not have fixed value, binding or existence assertions
 WARNING: ServiceRequest/ARequest: ServiceRequest.contained[0]/*PractitionerRole/ARequester*/.practitioner.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.4'
 WARNING: ServiceRequest/ARequest: ServiceRequest.contained[0]/*PractitionerRole/ARequester*/.organization.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 WARNING: ServiceRequest/ARequest: ServiceRequest.subject.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'

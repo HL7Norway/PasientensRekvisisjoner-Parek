@@ -1,4 +1,4 @@
-# Public Id Type CS - Pasientens rekvisisjoner v0.1.4
+# Public Id Type CS - Pasientens rekvisisjoner v0.1.5
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs | *Version*:0.1.4 |
-| Draft as of 2026-04-10 | *Computable Name*:PublicIdType_CS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs | *Version*:0.1.5 |
+| Draft as of 2026-04-13 | *Computable Name*:PublicIdType_CS |
 
  
 Id types used to identify patients 
@@ -28,11 +28,11 @@ Id types used to identify patients
   "resourceType" : "CodeSystem",
   "id" : "public-id-type-cs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs",
-  "version" : "0.1.4",
+  "version" : "0.1.5",
   "name" : "PublicIdType_CS",
   "title" : "Public Id Type CS",
   "status" : "draft",
-  "date" : "2026-04-10T13:11:24+00:00",
+  "date" : "2026-04-13T12:24:04+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

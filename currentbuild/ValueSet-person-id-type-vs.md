@@ -1,4 +1,4 @@
-# Person Id Type VS - Pasientens rekvisisjoner v0.1.4
+# Person Id Type VS - Pasientens rekvisisjoner v0.1.5
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs | *Version*:0.1.4 |
-| Draft as of 2026-04-10 | *Computable Name*:PersonIdType_VS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs | *Version*:0.1.5 |
+| Draft as of 2026-04-13 | *Computable Name*:PersonIdType_VS |
 
  
 Id types used to identify persons involved, other than the patient. 
@@ -46,11 +46,11 @@ Id types used to identify persons involved, other than the patient.
   "resourceType" : "ValueSet",
   "id" : "person-id-type-vs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-  "version" : "0.1.4",
+  "version" : "0.1.5",
   "name" : "PersonIdType_VS",
   "title" : "Person Id Type VS",
   "status" : "draft",
-  "date" : "2026-04-10T13:11:24+00:00",
+  "date" : "2026-04-13T12:24:04+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
