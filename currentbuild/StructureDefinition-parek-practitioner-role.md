@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
   "version" : "0.1.5",
   "name" : "ParekPractitionerRole",
   "status" : "draft",
-  "date" : "2026-04-13T12:24:04+00:00",
+  "date" : "2026-04-13T13:08:41+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

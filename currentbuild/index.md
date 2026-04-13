@@ -132,6 +132,10 @@ Siden Parek ikke er, eller har tilgang til, førstehåndsinformasjon om helseper
 
 ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refereranse til ServiceRequest. Parek bruker denne informasjonen til å finne ut om alle forventede prøver er tatt og endrer status fra "active" til "completed".
 
+### Utviklerportalen
+
+[Utviklerportalen](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-rekvisisjoner) inneholder teknisk informasjon for utviklere og andre som ønsker å ta tjenesten i bruk.
+
 
 
 ## Resource Content
@@ -145,7 +149,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-13T12:24:04+00:00",
+  "date" : "2026-04-13T13:08:41+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

@@ -52,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "SpecimenType_VS",
   "title" : "Specimen Type VS",
   "status" : "draft",
-  "date" : "2026-04-13T12:24:04+00:00",
+  "date" : "2026-04-13T13:08:41+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
