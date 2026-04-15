@@ -1,3 +1,8 @@
+Invariant: local-reference-only
+Description: "Referansen må være lokal (starte med #) og peke til en inneholdt ressurs."
+Severity: #error
+Expression: "reference.startsWith('#')"
+
 Profile: ParekServiceRequest
 Parent: ServiceRequest
 Id: parek-service-request
@@ -20,12 +25,13 @@ Description: "ServiceRecuest as used in Parek."
 * subject only Reference(Patient)
 * subject
   * identifier 1..1
-    * system from PublicIdType_VS
+    * system from PersonPublicIdType_VS
     * system 1..1
     * value 1..1
 * requester ^definition = "The person and/or organization responsible for the request. Typically the doctor in charge of the patient (e.g. fastlege)."
 * requester 1..1
 * requester only Reference(ParekRequester)
+* requester obeys local-reference-only
 * contained 1..1
 * contained only ParekRequester
 * orderDetail 1..*
@@ -37,7 +43,7 @@ Description: "ServiceRecuest as used in Parek."
 * occurrence[x] only Period
 * authoredOn 1..1
 * note MS
-* code MS
+* code 1..1
 
 
 Instance: ARequest
@@ -52,7 +58,7 @@ Description: "Example of ParekServiceRequest"
 
 * identifier[RequesterDefinedUuid]
   * system = "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"
-  * value = "45678"
+  * value = "urn:uuid:48ac2c8c-9989-4683-b397-d78aab9cf3f5"
 * subject
   * identifier
     * system = "urn:oid:2.16.578.1.12.4.1.4.1"

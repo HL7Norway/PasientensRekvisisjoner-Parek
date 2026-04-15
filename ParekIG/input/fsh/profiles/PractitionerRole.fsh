@@ -9,7 +9,7 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector."
 * practitioner
   * display 1..1
   * identifier 1..1
-    * system from PersonIdType_VS
+    * system from HealthCarePersonIdType_VS
     * system 1..1
     * value 1..1
 * organization ^definition = "Reference to Organization. May come from a direct mapping or from a fallback in the original message."

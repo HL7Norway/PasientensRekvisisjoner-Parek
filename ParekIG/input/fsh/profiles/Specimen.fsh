@@ -12,7 +12,7 @@ Description: "Specimen as used in Parek."
 * subject only Reference(Patient)
 * subject 1..1
   * identifier 1..1
-    * system from PublicIdType_VS
+    * system from PersonPublicIdType_VS
     * system 1..1
     * value 1..1
 * collection 1..1
