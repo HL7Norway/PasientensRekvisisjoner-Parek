@@ -1,4 +1,4 @@
-# Organization Id Type CS - Pasientens rekvisisjoner v0.1.5
+# Organization Id Type CS - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs | *Version*:0.1.5 |
-| Draft as of 2026-04-13 | *Computable Name*:OrganizationIdType_CS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs | *Version*:0.1.6 |
+| Draft as of 2026-04-15 | *Computable Name*:OrganizationIdType_CS |
 
  
 Id types used to identify organizations. 
@@ -27,11 +27,11 @@ Id types used to identify organizations.
   "resourceType" : "CodeSystem",
   "id" : "organization-id-type-cs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "OrganizationIdType_CS",
   "title" : "Organization Id Type CS",
   "status" : "draft",
-  "date" : "2026-04-13T13:08:41+00:00",
+  "date" : "2026-04-15T12:03:39+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -49,7 +49,7 @@ Id types used to identify organizations.
     }]
   }],
   "content" : "complete",
-  "count" : 4,
+  "count" : 3,
   "concept" : [{
     "code" : "urn:oid:2.16.578.1.12.4.1.2",
     "display" : "HER",
@@ -64,11 +64,6 @@ Id types used to identify organizations.
     "code" : "urn:oid:2.16.578.1.12.4.1.4.102",
     "display" : "RESH",
     "definition" : "enheter i spesialisthelsetjenesten"
-  },
-  {
-    "code" : "urn:oid:2.16.578.1.12.4.1.4.107",
-    "display" : "AKO",
-    "definition" : "Apotekenes konsesjonsnummer"
   }]
 }
 

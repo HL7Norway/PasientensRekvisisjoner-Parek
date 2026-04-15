@@ -1,4 +1,4 @@
-# ParekPractitionerRole - Pasientens rekvisisjoner v0.1.5
+# ParekPractitionerRole - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role | *Version*:0.1.5 |
-| Draft as of 2026-04-13 | *Computable Name*:ParekPractitionerRole |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role | *Version*:0.1.6 |
+| Draft as of 2026-04-15 | *Computable Name*:ParekPractitionerRole |
 
  
 PractitionerRole as used in Parek. Used to combine actors of type Practitioner and Organization. Practitioner and Organization are referenced by their Identifier. This is an 'abstract' base profile for ParekRequester and ParekCollector. 
@@ -37,10 +37,10 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
   "resourceType" : "StructureDefinition",
   "id" : "parek-practitioner-role",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekPractitionerRole",
   "status" : "draft",
-  "date" : "2026-04-13T13:08:41+00:00",
+  "date" : "2026-04-15T12:03:39+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -109,7 +109,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-practitioner-r
       "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs"
+        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs"
       }
     },
     {

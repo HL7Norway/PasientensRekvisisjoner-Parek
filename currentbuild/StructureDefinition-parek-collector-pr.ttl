@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr>
   ] ; # 
-  fhir:version [ fhir:v "0.1.5"] ; # 
+  fhir:version [ fhir:v "0.1.6"] ; # 
   fhir:name [ fhir:v "ParekCollector"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-13T13:08:41+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-15T12:03:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -95,7 +95,7 @@
        ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "0.1.5"
+         fhir:v "0.1.6"
        ]
      ] ) ;
      fhir:element ( [
@@ -1152,8 +1152,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs"^^xsd:anyURI ;
-           fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs>
+           fhir:v "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs"^^xsd:anyURI ;
+           fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs>
          ]
        ] ;
        fhir:mapping ( [

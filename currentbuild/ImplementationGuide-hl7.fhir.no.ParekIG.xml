@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG"/>
-  <version value="0.1.5"/>
+  <version value="0.1.6"/>
   <name value="ParekIG"/>
   <title value="Pasientens rekvisisjoner"/>
   <status value="draft"/>
-  <date value="2026-04-13T13:08:41+00:00"/>
+  <date value="2026-04-15T12:03:39+00:00"/>
   <publisher value="Norsk helsenett - NHN"/>
   <contact>
     <name value="Norsk helsenett - NHN"/>
@@ -86,6 +86,17 @@
       <description value="Example of ParekSpecimen"/>
       <isExample value="true"/>
       <profile value="http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/healthcare-person-id-type-cs"/>
+      </reference>
+      <name value="Healthcare Person Id Type CS"/>
+      <description value="Id types used to identify healthcare persons."/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -199,21 +210,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/person-id-type-cs"/>
-      </reference>
-      <name value="Person Id Type CS"/>
-      <description value="Id types used to identify persons involved, other than the patient."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/person-id-type-vs"/>
+        <reference value="ValueSet/healthcare-person-id-type-vs"/>
       </reference>
       <name value="Person Id Type VS"/>
       <description value="Id types used to identify persons involved, other than the patient."/>
@@ -224,10 +224,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/public-id-type-cs"/>
+        <reference value="CodeSystem/person-public-id-type-cs"/>
       </reference>
-      <name value="Public Id Type CS"/>
-      <description value="Id types used to identify patients"/>
+      <name value="Person Public Id Type CS"/>
+      <description value="Public id types used to identify persons."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -235,7 +235,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/public-id-type-vs"/>
+        <reference value="ValueSet/person-public-id-type-vs"/>
       </reference>
       <name value="Public Id Type VS"/>
       <description value="Id types used to identify patients"/>

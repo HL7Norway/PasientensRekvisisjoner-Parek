@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Pasientens rekvisisjoner v0.1.5</title>
+    <title>Artifacts Summary - Pasientens rekvisisjoner v0.1.6</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Pasientens rekvisisjoner</span>
             <br/>
-            <span style="display:inline-block;">0.1.5 - ci-build
+            <span style="display:inline-block;">0.1.6 - ci-build
 
 
 
@@ -141,7 +141,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Pasientens rekvisisjoner - Local Development build (v0.1.5) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Pasientens rekvisisjoner - Local Development build (v0.1.6) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/ParekIG/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -264,8 +264,8 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-person-id-type-vs.html"
-                  title="ValueSet/person-id-type-vs">Person Id Type VS</a>
+               <a href="ValueSet-healthcare-person-id-type-vs.html"
+                  title="ValueSet/healthcare-person-id-type-vs">Person Id Type VS</a>
             </td>
             <td>
 <p>Id types used to identify persons involved, other than the patient.</p>
@@ -273,8 +273,8 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-public-id-type-vs.html"
-                  title="ValueSet/public-id-type-vs">Public Id Type VS</a>
+               <a href="ValueSet-person-public-id-type-vs.html"
+                  title="ValueSet/person-public-id-type-vs">Public Id Type VS</a>
             </td>
             <td>
 <p>Id types used to identify patients</p>
@@ -298,6 +298,15 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector.</p>
       <tbody>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-healthcare-person-id-type-cs.html"
+                  title="CodeSystem/healthcare-person-id-type-cs">Healthcare Person Id Type CS</a>
+            </td>
+            <td>
+<p>Id types used to identify healthcare persons.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-organization-id-type-cs.html"
                   title="CodeSystem/organization-id-type-cs">Organization Id Type CS</a>
             </td>
@@ -307,20 +316,11 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-person-id-type-cs.html"
-                  title="CodeSystem/person-id-type-cs">Person Id Type CS</a>
+               <a href="CodeSystem-person-public-id-type-cs.html"
+                  title="CodeSystem/person-public-id-type-cs">Person Public Id Type CS</a>
             </td>
             <td>
-<p>Id types used to identify persons involved, other than the patient.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-public-id-type-cs.html"
-                  title="CodeSystem/public-id-type-cs">Public Id Type CS</a>
-            </td>
-            <td>
-<p>Id types used to identify patients</p>
+<p>Public id types used to identify persons.</p>
 </td>
          </tr>
       </tbody>
@@ -410,7 +410,7 @@ This is an 'abstract' base profile for ParekRequester and ParekCollector.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.5 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Apr 13, 2026 13:08+0000">2026-04-13</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.nhn.no">Norsk helsenett - NHN</a>.  Package hl7.fhir.no.ParekIG#0.1.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Apr 15, 2026 12:03+0000">2026-04-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

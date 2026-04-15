@@ -1,4 +1,4 @@
-# Artifacts Summary - Pasientens rekvisisjoner v0.1.5
+# Artifacts Summary - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -34,8 +34,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | | |
 | :--- | :--- |
 | [Organization Id Type VS](ValueSet-organization-id-type-vs.md) | Id types for organizations involved in DiagnosticReport/Observation |
-| [Person Id Type VS](ValueSet-person-id-type-vs.md) | Id types used to identify persons involved, other than the patient. |
-| [Public Id Type VS](ValueSet-public-id-type-vs.md) | Id types used to identify patients |
+| [Person Id Type VS](ValueSet-healthcare-person-id-type-vs.md) | Id types used to identify persons involved, other than the patient. |
+| [Public Id Type VS](ValueSet-person-public-id-type-vs.md) | Id types used to identify patients |
 | [Specimen Type VS](ValueSet-specimen-type-vs.md) | Type og material in specimen. |
 
 ### Terminology: Code Systems 
@@ -44,9 +44,9 @@ These define new code systems used by systems conforming to this implementation 
 
 | | |
 | :--- | :--- |
+| [Healthcare Person Id Type CS](CodeSystem-healthcare-person-id-type-cs.md) | Id types used to identify healthcare persons. |
 | [Organization Id Type CS](CodeSystem-organization-id-type-cs.md) | Id types used to identify organizations. |
-| [Person Id Type CS](CodeSystem-person-id-type-cs.md) | Id types used to identify persons involved, other than the patient. |
-| [Public Id Type CS](CodeSystem-public-id-type-cs.md) | Id types used to identify patients |
+| [Person Public Id Type CS](CodeSystem-person-public-id-type-cs.md) | Public id types used to identify persons. |
 
 ### Terminology: Naming Systems 
 

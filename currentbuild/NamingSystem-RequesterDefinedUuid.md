@@ -1,4 +1,4 @@
-# RequesterDefinedUuid - Pasientens rekvisisjoner v0.1.5
+# RequesterDefinedUuid - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid | *Version*:0.1.5 |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid | *Version*:0.1.6 |
 | Active as of 2026-03-20 | *Computable Name*:RequesterDefinedUuid |
 
  
@@ -23,7 +23,7 @@ NamingSystem for a required identifier that must be unique. Provides idempotency
   "resourceType" : "NamingSystem",
   "id" : "RequesterDefinedUuid",
   "url" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "RequesterDefinedUuid",
   "status" : "active",
   "kind" : "identifier",

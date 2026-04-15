@@ -1,4 +1,4 @@
-# Home - Pasientens rekvisisjoner v0.1.5
+# Home - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.5 |
-| Draft as of 2026-04-13 | *Computable Name*:ParekIG |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.6 |
+| Draft as of 2026-04-15 | *Computable Name*:ParekIG |
 
 ### Introduksjon
 
@@ -145,11 +145,11 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.ParekIG",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-13T13:08:41+00:00",
+  "date" : "2026-04-15T12:03:39+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -232,6 +232,18 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
       "description" : "Example of ParekSpecimen",
       "isExample" : true,
       "profile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/healthcare-person-id-type-cs"
+      },
+      "name" : "Healthcare Person Id Type CS",
+      "description" : "Id types used to identify healthcare persons.",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -356,22 +368,10 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/person-id-type-cs"
-      },
-      "name" : "Person Id Type CS",
-      "description" : "Id types used to identify persons involved, other than the patient.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/person-id-type-vs"
+        "reference" : "ValueSet/healthcare-person-id-type-vs"
       },
       "name" : "Person Id Type VS",
       "description" : "Id types used to identify persons involved, other than the patient.",
@@ -383,10 +383,10 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/public-id-type-cs"
+        "reference" : "CodeSystem/person-public-id-type-cs"
       },
-      "name" : "Public Id Type CS",
-      "description" : "Id types used to identify patients",
+      "name" : "Person Public Id Type CS",
+      "description" : "Public id types used to identify persons.",
       "isExample" : false
     },
     {
@@ -395,7 +395,7 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/public-id-type-vs"
+        "reference" : "ValueSet/person-public-id-type-vs"
       },
       "name" : "Public Id Type VS",
       "description" : "Id types used to identify patients",

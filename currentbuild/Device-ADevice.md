@@ -1,4 +1,4 @@
-# A Device - Pasientens rekvisisjoner v0.1.5
+# A Device - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

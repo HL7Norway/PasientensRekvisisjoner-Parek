@@ -1,4 +1,4 @@
-# ParekServiceRequest - Pasientens rekvisisjoner v0.1.5
+# ParekServiceRequest - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request | *Version*:0.1.5 |
-| Draft as of 2026-04-13 | *Computable Name*:ParekServiceRequest |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request | *Version*:0.1.6 |
+| Draft as of 2026-04-15 | *Computable Name*:ParekServiceRequest |
 
  
 ServiceRecuest as used in Parek. 
@@ -37,10 +37,10 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
   "resourceType" : "StructureDefinition",
   "id" : "parek-service-request",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekServiceRequest",
   "status" : "draft",
-  "date" : "2026-04-13T13:08:41+00:00",
+  "date" : "2026-04-15T12:03:39+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
@@ -146,7 +146,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
     {
       "id" : "ServiceRequest.code",
       "path" : "ServiceRequest.code",
-      "mustSupport" : true
+      "min" : 1
     },
     {
       "id" : "ServiceRequest.orderDetail",
@@ -195,7 +195,7 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
       "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs"
+        "valueSet" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs"
       }
     },
     {
@@ -224,6 +224,13 @@ Other representations of profile: [CSV](StructureDefinition-parek-service-reques
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr"]
+      }],
+      "constraint" : [{
+        "key" : "local-reference-only",
+        "severity" : "error",
+        "human" : "Referansen må være lokal (starte med #) og peke til en inneholdt ressurs.",
+        "expression" : "reference.startsWith('#')",
+        "source" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request"
       }]
     },
     {

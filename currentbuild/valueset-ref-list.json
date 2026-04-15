@@ -1,7 +1,20 @@
 {
   "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs",
+    "version" : "0.1.6",
+    "status" : "draft",
+    "name" : "HealthCarePersonIdType_VS",
+    "title" : "Person Id Type VS",
+    "description" : "Id types used to identify persons involved, other than the patient.",
+    "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs",
+    "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
+  },
+  {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
-    "version" : "0.1.5",
+    "version" : "0.1.6",
     "status" : "draft",
     "name" : "OrganizationIdType_VS",
     "title" : "Organization Id Type VS",
@@ -12,26 +25,13 @@
     "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
   },
   {
-    "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-    "version" : "0.1.5",
+    "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs",
+    "version" : "0.1.6",
     "status" : "draft",
-    "name" : "PersonIdType_VS",
-    "title" : "Person Id Type VS",
-    "description" : "Id types used to identify persons involved, other than the patient.",
-    "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
-    "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
-    "uses" : {
-    },
-    "StructureDefinition-parek-practitioner-role.html" : "ParekPractitionerRole"
-  },
-  {
-    "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
-    "version" : "0.1.5",
-    "status" : "draft",
-    "name" : "PublicIdType_VS",
+    "name" : "PersonPublicIdType_VS",
     "title" : "Public Id Type VS",
     "description" : "Id types used to identify patients",
-    "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs"],
+    "systems" : ["http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs"],
     "uses" : {
     },
     "StructureDefinition-parek-service-request.html" : "ParekServiceRequest",
@@ -39,7 +39,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-    "version" : "0.1.5",
+    "version" : "0.1.6",
     "status" : "draft",
     "name" : "SpecimenType_VS",
     "title" : "Specimen Type VS",

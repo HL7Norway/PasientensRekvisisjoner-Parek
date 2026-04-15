@@ -1,4 +1,4 @@
-# ParekRequester - Pasientens rekvisisjoner v0.1.5
+# ParekRequester - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr | *Version*:0.1.5 |
-| Draft as of 2026-04-13 | *Computable Name*:ParekRequester |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr | *Version*:0.1.6 |
+| Draft as of 2026-04-15 | *Computable Name*:ParekRequester |
 
 **Usages:**
 
@@ -36,10 +36,10 @@ Other representations of profile: [CSV](StructureDefinition-parek-requester-pr.c
   "resourceType" : "StructureDefinition",
   "id" : "parek-requester-pr",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekRequester",
   "status" : "draft",
-  "date" : "2026-04-13T13:08:41+00:00",
+  "date" : "2026-04-15T12:03:39+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

@@ -1,105 +1,105 @@
 [{
+  "id" : "healthcare-person-id-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs",
+  "version" : "0.1.6",
+  "name" : "HealthCarePersonIdType_CS"
+},
+{
   "id" : "organization-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "OrganizationIdType_CS"
 },
 {
-  "id" : "person-id-type-cs",
+  "id" : "person-public-id-type-cs",
   "type" : "CodeSystem",
-  "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs",
-  "version" : "0.1.5",
-  "name" : "PersonIdType_CS"
-},
-{
-  "id" : "public-id-type-cs",
-  "type" : "CodeSystem",
-  "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs",
-  "version" : "0.1.5",
-  "name" : "PublicIdType_CS"
+  "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs",
+  "version" : "0.1.6",
+  "name" : "PersonPublicIdType_CS"
 },
 {
   "id" : "hl7.fhir.no.ParekIG",
   "type" : "ImplementationGuide",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekIG"
 },
 {
   "id" : "RequesterDefinedUuid",
   "type" : "NamingSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "RequesterDefinedUuid"
 },
 {
   "id" : "parek-collector-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekCollector"
 },
 {
   "id" : "parek-device",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekDevice"
 },
 {
   "id" : "parek-practitioner-role",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekPractitionerRole"
 },
 {
   "id" : "parek-requester-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekRequester"
 },
 {
   "id" : "parek-service-request",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekServiceRequest"
 },
 {
   "id" : "parek-specimen",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "ParekSpecimen"
+},
+{
+  "id" : "healthcare-person-id-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs",
+  "version" : "0.1.6",
+  "name" : "HealthCarePersonIdType_VS"
 },
 {
   "id" : "organization-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "OrganizationIdType_VS"
 },
 {
-  "id" : "person-id-type-vs",
+  "id" : "person-public-id-type-vs",
   "type" : "ValueSet",
-  "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs",
-  "version" : "0.1.5",
-  "name" : "PersonIdType_VS"
-},
-{
-  "id" : "public-id-type-vs",
-  "type" : "ValueSet",
-  "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs",
-  "version" : "0.1.5",
-  "name" : "PublicIdType_VS"
+  "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs",
+  "version" : "0.1.6",
+  "name" : "PersonPublicIdType_VS"
 },
 {
   "id" : "specimen-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-  "version" : "0.1.5",
+  "version" : "0.1.6",
   "name" : "SpecimenType_VS"
 }]

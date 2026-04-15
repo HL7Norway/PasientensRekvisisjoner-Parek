@@ -1,4 +1,4 @@
-# A Request - Pasientens rekvisisjoner v0.1.5
+# A Request - Pasientens rekvisisjoner v0.1.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -46,7 +46,7 @@ A sample ParekServiceRequest, also referenced from other samples.
   }],
   "identifier" : [{
     "system" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
-    "value" : "45678"
+    "value" : "urn:uuid:48ac2c8c-9989-4683-b397-d78aab9cf3f5"
   }],
   "status" : "active",
   "intent" : "plan",

@@ -1,4 +1,4 @@
-# hl7.fhir.no.ParekIG#0.1.5: Pasientens rekvisisjoner
+# hl7.fhir.no.ParekIG#0.1.6: Pasientens rekvisisjoner
 
 ## Pages
 
@@ -9,15 +9,15 @@
 
 ### CodeSystems
 
+* [Healthcare Person Id Type CS](CodeSystem-healthcare-person-id-type-cs.md)
 * [Organization Id Type CS](CodeSystem-organization-id-type-cs.md)
-* [Person Id Type CS](CodeSystem-person-id-type-cs.md)
-* [Public Id Type CS](CodeSystem-public-id-type-cs.md)
+* [Person Public Id Type CS](CodeSystem-person-public-id-type-cs.md)
 
 ### ValueSets
 
+* [Person Id Type VS](ValueSet-healthcare-person-id-type-vs.md)
 * [Organization Id Type VS](ValueSet-organization-id-type-vs.md)
-* [Person Id Type VS](ValueSet-person-id-type-vs.md)
-* [Public Id Type VS](ValueSet-public-id-type-vs.md)
+* [Public Id Type VS](ValueSet-person-public-id-type-vs.md)
 * [Specimen Type VS](ValueSet-specimen-type-vs.md)
 
 ### Resource Profiles

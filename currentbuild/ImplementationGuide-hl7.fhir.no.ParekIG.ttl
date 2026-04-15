@@ -17,11 +17,11 @@
      fhir:v "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG>
   ] ; # 
-  fhir:version [ fhir:v "0.1.5"] ; # 
+  fhir:version [ fhir:v "0.1.6"] ; # 
   fhir:name [ fhir:v "ParekIG"] ; # 
   fhir:title [ fhir:v "Pasientens rekvisisjoner"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-13T13:08:41+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-15T12:03:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Norsk helsenett - NHN"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Norsk helsenett - NHN" ] ;
@@ -158,6 +158,24 @@
          fhir:v "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen"^^xsd:anyURI ;
          fhir:l <http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen>
        ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/healthcare-person-id-type-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Healthcare Person Id Type CS" ] ;
+       fhir:description [ fhir:v "Id types used to identify healthcare persons." ] ;
+       fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
          fhir:url [
@@ -352,30 +370,12 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-id-type-cs> ;
-         fhir:reference [ fhir:v "CodeSystem/person-id-type-cs" ]
-       ] ;
-       fhir:name [ fhir:v "Person Id Type CS" ] ;
-       fhir:description [ fhir:v "Id types used to identify persons involved, other than the patient." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/person-id-type-vs> ;
-         fhir:reference [ fhir:v "ValueSet/person-id-type-vs" ]
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/healthcare-person-id-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Person Id Type VS" ] ;
        fhir:description [ fhir:v "Id types used to identify persons involved, other than the patient." ] ;
@@ -392,11 +392,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/CodeSystem/public-id-type-cs> ;
-         fhir:reference [ fhir:v "CodeSystem/public-id-type-cs" ]
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/person-public-id-type-cs" ]
        ] ;
-       fhir:name [ fhir:v "Public Id Type CS" ] ;
-       fhir:description [ fhir:v "Id types used to identify patients" ] ;
+       fhir:name [ fhir:v "Person Public Id Type CS" ] ;
+       fhir:description [ fhir:v "Public id types used to identify persons." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -410,8 +410,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/public-id-type-vs> ;
-         fhir:reference [ fhir:v "ValueSet/public-id-type-vs" ]
+         fhir:l <http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/person-public-id-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Public Id Type VS" ] ;
        fhir:description [ fhir:v "Id types used to identify patients" ] ;
