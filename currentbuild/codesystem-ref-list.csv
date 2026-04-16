@@ -1,4 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs,0.1.6,draft,,HealthCarePersonIdType_CS,Healthcare Person Id Type CS,"Id types used to identify healthcare persons.","ValueSet/healthcare-person-id-type-vs"
-http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs,0.1.6,draft,,OrganizationIdType_CS,Organization Id Type CS,"Id types used to identify organizations.","ValueSet/organization-id-type-vs"
-http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs,0.1.6,draft,,PersonPublicIdType_CS,Person Public Id Type CS,"Public id types used to identify persons.","ValueSet/healthcare-person-id-type-vs,ValueSet/person-public-id-type-vs"
+http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs,0.1.7,draft,,HealthCarePersonIdType_CS,Healthcare Person Id Type CS,"Id types used to identify healthcare persons.","ValueSet/healthcare-person-id-type-vs"
+http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs,0.1.7,draft,,OrganizationIdType_CS,Organization Id Type CS,"Id types used to identify organizations.","ValueSet/organization-id-type-vs"
+http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs,0.1.7,draft,,PersonPublicIdType_CS,Person Public Id Type CS,"Public id types used to identify persons.","ValueSet/healthcare-person-id-type-vs,ValueSet/person-public-id-type-vs"

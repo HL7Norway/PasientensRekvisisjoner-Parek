@@ -3,14 +3,14 @@
   "id" : "healthcare-person-id-type-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet healthcare-person-id-type-vs</b></p><a name=\"healthcare-person-id-type-vs\"> </a><a name=\"hchealthcare-person-id-type-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-person-public-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.6</span></li><li>Include all codes defined in <a href=\"CodeSystem-healthcare-person-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.6</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet healthcare-person-id-type-vs</b></p><a name=\"healthcare-person-id-type-vs\"> </a><a name=\"hchealthcare-person-id-type-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-person-public-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.7</span></li><li>Include all codes defined in <a href=\"CodeSystem-healthcare-person-id-type-cs.html\"><code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.7</span></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "HealthCarePersonIdType_VS",
   "title" : "Person Id Type VS",
   "status" : "draft",
-  "date" : "2026-04-15T12:03:39+00:00",
+  "date" : "2026-04-16T08:13:22+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

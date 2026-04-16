@@ -1,4 +1,4 @@
-# Artifacts Summary - Pasientens rekvisisjoner v0.1.6
+# Artifacts Summary - Pasientens rekvisisjoner v0.1.7
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

@@ -1,4 +1,4 @@
-# Parek Collector - Pasientens rekvisisjoner v0.1.6
+# Parek Collector - Pasientens rekvisisjoner v0.1.7
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -3,11 +3,11 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="RequesterDefinedUuid"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem RequesterDefinedUuid</b></p><a name="RequesterDefinedUuid"> </a><a name="hcRequesterDefinedUuid"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid</td></tr><tr><td>Version</td><td>0.1.6</td></tr><tr><td>Name</td><td>RequesterDefinedUuid</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem RequesterDefinedUuid</b></p><a name="RequesterDefinedUuid"> </a><a name="hcRequesterDefinedUuid"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid</td></tr><tr><td>Version</td><td>0.1.7</td></tr><tr><td>Name</td><td>RequesterDefinedUuid</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>NamingSystem for a required identifier that must be unique. Provides idempotency in case client systems tries to create same resource twice.</p>
 </div></td></tr><tr><td>Publisher</td><td>Norsk helsenett - NHN</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>UUID</td><td>http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid</td><td>true</td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="RequesterDefinedUuid"/>
   <status value="active"/>
   <kind value="identifier"/>

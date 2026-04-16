@@ -1,4 +1,4 @@
-# Home - Pasientens rekvisisjoner v0.1.6
+# Home - Pasientens rekvisisjoner v0.1.7
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.6 |
-| Draft as of 2026-04-15 | *Computable Name*:ParekIG |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG | *Version*:0.1.7 |
+| Draft as of 2026-04-16 | *Computable Name*:ParekIG |
 
 ### Introduksjon
 
@@ -145,11 +145,11 @@ ServiceRequest har ingen kunnskap om Specimen. Specimen opprettes med refererans
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.ParekIG",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-15T12:03:39+00:00",
+  "date" : "2026-04-16T08:13:22+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

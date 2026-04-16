@@ -240,6 +240,22 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",1,1,"","","Y","Period {[]} {[]}
 ","When service should occur","The date/time at which the requested service should occur.","","","","","","","","","",,,,,"",,,,"ServiceRequest.occurrence[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.occurrence[x]","FiveWs.planned","TQ1/TQ2, OBR-7/OBR-8",".effectiveTime","Procedure.procedureSchedule"
+"ServiceRequest.occurrence[x].id","ServiceRequest.occurrence[x].id","","","",0,1,"","","","id {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","","n/a"
+"ServiceRequest.occurrence[x].extension","ServiceRequest.occurrence[x].extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ServiceRequest.occurrence[x].start","ServiceRequest.occurrence[x].start","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Starting time with inclusive boundary","The start of the period. The boundary is inclusive.","If the low element is missing, the meaning is that the low boundary is not known.","","","","","","","","",,,,,"",,,,"Period.start",0,1,"per-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","DR.1","./low"
+"ServiceRequest.occurrence[x].end","ServiceRequest.occurrence[x].end","","","",1,1,"","","Y","dateTime {[]} {[]}
+","End time with inclusive boundary, if not ongoing","The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.","The end value includes any matching date/time. i.e. 2012-02-03T10:00:00 is in a period that has an end value of 2012-02-03.","","","If the end of the period is missing, it means that the period is ongoing","","","","","",,,,,"",,,,"Period.end",0,1,"per-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","DR.2","./high"
 "ServiceRequest.asNeeded[x]","ServiceRequest.asNeeded[x]","","","",0,1,"","","Y","boolean {[]} {[]}
 CodeableConcept {[]} {[]}","Preconditions for service","If a CodeableConcept is present, it indicates the pre-condition for performing the service.  For example ""pain"", ""on flare-up"", etc.","","","","","","","","","",,"example","A coded concept identifying the pre-condition that should hold prior to performing a procedure.  For example ""pain"", ""on flare-up"", etc.","http://hl7.org/fhir/ValueSet/medication-as-needed-reason|5.0.0","",,,,"ServiceRequest.asNeeded[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","boolean: precondition.negationInd (inversed - so negationInd = true means asNeeded=false CodeableConcept: precondition.observationEventCriterion[code=""Assertion""].value","Proposal.prnReason.reason"

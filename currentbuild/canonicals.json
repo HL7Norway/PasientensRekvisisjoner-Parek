@@ -2,104 +2,104 @@
   "id" : "healthcare-person-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "HealthCarePersonIdType_CS"
 },
 {
   "id" : "organization-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "OrganizationIdType_CS"
 },
 {
   "id" : "person-public-id-type-cs",
   "type" : "CodeSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "PersonPublicIdType_CS"
 },
 {
   "id" : "hl7.fhir.no.ParekIG",
   "type" : "ImplementationGuide",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekIG"
 },
 {
   "id" : "RequesterDefinedUuid",
   "type" : "NamingSystem",
   "url" : "http://hl7.no/fhir/ig/ParekIG/NamingSystem/RequesterDefinedUuid",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "RequesterDefinedUuid"
 },
 {
   "id" : "parek-collector-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-collector-pr",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekCollector"
 },
 {
   "id" : "parek-device",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-device",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekDevice"
 },
 {
   "id" : "parek-practitioner-role",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-practitioner-role",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekPractitionerRole"
 },
 {
   "id" : "parek-requester-pr",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-requester-pr",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekRequester"
 },
 {
   "id" : "parek-service-request",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-service-request",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekServiceRequest"
 },
 {
   "id" : "parek-specimen",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/ParekIG/StructureDefinition/parek-specimen",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekSpecimen"
 },
 {
   "id" : "healthcare-person-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "HealthCarePersonIdType_VS"
 },
 {
   "id" : "organization-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "OrganizationIdType_VS"
 },
 {
   "id" : "person-public-id-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "PersonPublicIdType_VS"
 },
 {
   "id" : "specimen-type-vs",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/ParekIG/ValueSet/specimen-type-vs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "SpecimenType_VS"
 }]

@@ -75,4 +75,10 @@
       <sch:assert test="count(f:assigner) &lt;= 1">assigner: maximum cardinality of 'assigner' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:ServiceRequest/f:occurrence[x] 1</sch:title>
+    <sch:rule context="f:ServiceRequest/f:occurrence[x]">
+      <sch:assert test="count(f:end) &gt;= 1">end: minimum cardinality of 'end' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
 </sch:schema>

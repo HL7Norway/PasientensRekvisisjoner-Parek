@@ -1,4 +1,4 @@
-# Healthcare Person Id Type CS - Pasientens rekvisisjoner v0.1.6
+# Healthcare Person Id Type CS - Pasientens rekvisisjoner v0.1.7
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs | *Version*:0.1.6 |
-| Draft as of 2026-04-15 | *Computable Name*:HealthCarePersonIdType_CS |
+| *Official URL*:http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs | *Version*:0.1.7 |
+| Draft as of 2026-04-16 | *Computable Name*:HealthCarePersonIdType_CS |
 
  
 Id types used to identify healthcare persons. 
@@ -27,11 +27,11 @@ Id types used to identify healthcare persons.
   "resourceType" : "CodeSystem",
   "id" : "healthcare-person-id-type-cs",
   "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "HealthCarePersonIdType_CS",
   "title" : "Healthcare Person Id Type CS",
   "status" : "draft",
-  "date" : "2026-04-15T12:03:39+00:00",
+  "date" : "2026-04-16T08:13:22+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",

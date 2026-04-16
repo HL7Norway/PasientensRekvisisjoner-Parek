@@ -1,7 +1,7 @@
 {
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "fhirVersion" : ["5.0.0"],
-  "date" : "20260415120339",
+  "date" : "20260416081322",
   "name" : "hl7.fhir.no.ParekIG",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }

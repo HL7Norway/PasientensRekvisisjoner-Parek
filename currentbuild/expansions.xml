@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9ee8a5f2-8733-477e-81e5-3179d1086000"/>
+  <id value="adf39390-51e9-4076-8bca-ae9a4698e6de"/>
   <meta>
-    <lastUpdated value="2026-04-15T12:03:39.649+00:00"/>
+    <lastUpdated value="2026-04-16T08:13:22.093+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,15 +18,15 @@
               <p>Expansion performed internally based on:</p>
               <ul>
                 <li>
-                  <a href="CodeSystem-healthcare-person-id-type-cs.html">codesystem Healthcare Person Id Type CS v0.1.6 (CodeSystem)</a>
+                  <a href="CodeSystem-healthcare-person-id-type-cs.html">codesystem Healthcare Person Id Type CS v0.1.7 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs|0.1.6" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs|0.1.7" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
-                  <a href="CodeSystem-person-public-id-type-cs.html">codesystem Person Public Id Type CS v0.1.6 (CodeSystem)</a>
+                  <a href="CodeSystem-person-public-id-type-cs.html">codesystem Person Public Id Type CS v0.1.7 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.6" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.7" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
@@ -65,12 +65,12 @@
                 <td>Fødselsnummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -86,12 +86,12 @@
                 <td>D-nummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -107,12 +107,12 @@
                 <td>Felles hjelpenummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -128,12 +128,12 @@
                 <td>Helsepersonell-nummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -141,11 +141,11 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ig/ParekIG/ValueSet/healthcare-person-id-type-vs"/>
-        <version value="0.1.6"/>
+        <version value="0.1.7"/>
         <name value="HealthCarePersonIdType_VS"/>
         <title value="Person Id Type VS"/>
         <status value="draft"/>
-        <date value="2026-04-15T12:03:39+00:00"/>
+        <date value="2026-04-16T08:13:22+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -154,8 +154,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c3ef6629-3fd0-485f-b26a-8d871076e195"/>
-          <timestamp value="2026-04-15T12:04:51+00:00"/>
+          <identifier value="urn:uuid:70618e3e-d62e-41c9-ba3e-8ef22f949350"/>
+          <timestamp value="2026-04-16T08:14:20+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -176,11 +176,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.6"/>
+            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.7"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs|0.1.6"/>
+            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs|0.1.7"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs"/>
@@ -211,9 +211,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-organization-id-type-cs.html">codesystem Organization Id Type CS v0.1.6 (CodeSystem)</a>
+              <a href="CodeSystem-organization-id-type-cs.html">codesystem Organization Id Type CS v0.1.7 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs|0.1.6" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs|0.1.7" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -250,12 +250,12 @@
                 <td>HER-id</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -271,12 +271,12 @@
                 <td>Enhetsregisteret - Brønnøysund</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -292,12 +292,12 @@
                 <td>enheter i spesialisthelsetjenesten</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -305,11 +305,11 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ig/ParekIG/ValueSet/organization-id-type-vs"/>
-        <version value="0.1.6"/>
+        <version value="0.1.7"/>
         <name value="OrganizationIdType_VS"/>
         <title value="Organization Id Type VS"/>
         <status value="draft"/>
-        <date value="2026-04-15T12:03:39+00:00"/>
+        <date value="2026-04-16T08:13:22+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -318,8 +318,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a703705-9c8f-4c63-a2a1-72480d5c9ebd"/>
-          <timestamp value="2026-04-15T12:04:51+00:00"/>
+          <identifier value="urn:uuid:fae5593b-8763-4ade-ad43-e784271fa5f2"/>
+          <timestamp value="2026-04-16T08:14:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -340,7 +340,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs|0.1.6"/>
+            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs|0.1.7"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs"/>
@@ -367,9 +367,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-person-public-id-type-cs.html">codesystem Person Public Id Type CS v0.1.6 (CodeSystem)</a>
+              <a href="CodeSystem-person-public-id-type-cs.html">codesystem Person Public Id Type CS v0.1.7 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.6" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.7" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -406,12 +406,12 @@
                 <td>Fødselsnummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -427,12 +427,12 @@
                 <td>D-nummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -448,12 +448,12 @@
                 <td>Felles hjelpenummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.6&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;, &quot;version&quot;: &quot;0.1.7&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.6&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs&quot;&gt;&lt;version value=&quot;0.1.7&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -461,11 +461,11 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ig/ParekIG/ValueSet/person-public-id-type-vs"/>
-        <version value="0.1.6"/>
+        <version value="0.1.7"/>
         <name value="PersonPublicIdType_VS"/>
         <title value="Public Id Type VS"/>
         <status value="draft"/>
-        <date value="2026-04-15T12:03:39+00:00"/>
+        <date value="2026-04-16T08:13:22+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -474,8 +474,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a43c8078-d95d-4269-8951-d293d5236fd2"/>
-          <timestamp value="2026-04-15T12:04:51+00:00"/>
+          <identifier value="urn:uuid:33926a92-8940-46b3-a057-64d43349cfa7"/>
+          <timestamp value="2026-04-16T08:14:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -496,7 +496,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.6"/>
+            <valueUri value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs|0.1.7"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs"/>

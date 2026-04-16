@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs",
-    "version" : "0.1.6",
+    "version" : "0.1.7",
     "status" : "draft",
     "name" : "HealthCarePersonIdType_CS",
     "title" : "Healthcare Person Id Type CS",
@@ -9,7 +9,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/organization-id-type-cs",
-    "version" : "0.1.6",
+    "version" : "0.1.7",
     "status" : "draft",
     "name" : "OrganizationIdType_CS",
     "title" : "Organization Id Type CS",
@@ -17,7 +17,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/ParekIG/CodeSystem/person-public-id-type-cs",
-    "version" : "0.1.6",
+    "version" : "0.1.7",
     "status" : "draft",
     "name" : "PersonPublicIdType_CS",
     "title" : "Person Public Id Type CS",

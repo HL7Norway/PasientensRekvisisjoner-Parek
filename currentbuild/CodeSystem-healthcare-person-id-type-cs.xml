@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem healthcare-person-id-type-cs</b></p><a name="healthcare-person-id-type-cs"> </a><a name="hchealthcare-person-id-type-cs"> </a><p>This  code system <code>http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">urn:oid:2.16.578.1.12.4.1.4.4<a name="healthcare-person-id-type-cs-urn.58oid.582.4616.46578.461.4612.464.461.464.464"> </a></td><td>HPR</td><td>Helsepersonell-nummer</td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/ig/ParekIG/CodeSystem/healthcare-person-id-type-cs"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="HealthCarePersonIdType_CS"/>
   <title value="Healthcare Person Id Type CS"/>
   <status value="draft"/>
-  <date value="2026-04-15T12:03:39+00:00"/>
+  <date value="2026-04-16T08:13:22+00:00"/>
   <publisher value="Norsk helsenett - NHN"/>
   <contact>
     <name value="Norsk helsenett - NHN"/>

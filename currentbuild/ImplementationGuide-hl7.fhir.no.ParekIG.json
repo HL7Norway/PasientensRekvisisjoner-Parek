@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.ParekIG</b></p><a name=\"hl7.fhir.no.ParekIG\"> </a><a name=\"hchl7.fhir.no.ParekIG\"> </a><h2>ParekIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG</pre><div><p>Implementasjonsguide for Pasientens rekvisisjoner</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/ParekIG/ImplementationGuide/hl7.fhir.no.ParekIG",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "name" : "ParekIG",
   "title" : "Pasientens rekvisisjoner",
   "status" : "draft",
-  "date" : "2026-04-15T12:03:39+00:00",
+  "date" : "2026-04-16T08:13:22+00:00",
   "publisher" : "Norsk helsenett - NHN",
   "contact" : [{
     "name" : "Norsk helsenett - NHN",
