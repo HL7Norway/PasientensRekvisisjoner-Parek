@@ -41,6 +41,8 @@ Description: "ServiceRecuest as used in Parek."
     * value[x] only CodeableConcept or Quantity or string
 * occurrence[x] 1..1
 * occurrence[x] only Period
+* occurrencePeriod
+  * end 1..1
 * authoredOn 1..1
 * note MS
 * code 1..1
